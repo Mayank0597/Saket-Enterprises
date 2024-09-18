@@ -19,7 +19,7 @@ const ServicesSection = () => {
       </h2>
 
       {/* Images and text */}
-      <div className="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 mb-12 md:mx-16">
+      <div className="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 mb-12 md:mx-20">
         {/* Service 1 */}
         <div className="flex flex-col items-center">
           <img
@@ -27,10 +27,9 @@ const ServicesSection = () => {
             alt="Service 1"
             className="w-64 h-64 md:w-[427px] md:h-auto object-cover mb-4"
           />
-          <h3 className="text-xl font-semibold text-black">Plywood</h3>
-          <p className="text-gray-500">
-            Brief description of Service 1. Highlighting the key aspects and
-            features.
+          <h3 className="text-xl font-semibold text-[#393939]">Plywood</h3>
+          <p className="text-[#9F9F9F] text-start">
+            We offer high-quality plywood that stands out for its strength, durability and versatility.
           </p>
         </div>
 
@@ -41,10 +40,9 @@ const ServicesSection = () => {
             alt="Service 2"
             className="w-64 h-64 md:w-[427px] md:h-auto object-cover mb-4"
           />
-          <h3 className="text-xl font-semibold text-black">Mica</h3>
-          <p className="text-gray-500">
-            Brief description of Service 2. Emphasizing what sets this service
-            apart.
+          <h3 className="text-xl font-semibold text-[#393939]">Mica</h3>
+          <p className="text-[#9F9F9F] text-start">
+            Our range of mica sheets is designed to be an ideal choice of kitchens, bathrooms and high-traffic areas.
           </p>
         </div>
 
@@ -55,16 +53,16 @@ const ServicesSection = () => {
             alt="Service 3"
             className="w-64 h-64 md:w-[427px] md:h-auto object-cover mb-4"
           />
-          <h3 className="text-xl font-semibold text-black">Veneer Plywood</h3>
-          <p className="text-gray-500">
-            Brief description of Service 3. Explaining how it benefits the user.
+          <h3 className="text-xl font-semibold text-[#393939]">Veneer Plywood</h3>
+          <p className="text-[#9F9F9F] text-start">
+           For those who seek a natural wood finish, our veneer plywood offers a perfect solution.
           </p>
         </div>
       </div>
 
       {/* View All Button */}
       <button
-        className="bg-orange-500 text-white px-8 py-3 rounded-md text-lg hover:bg-orange-600"
+        className="bg-[#E2761B] text-white px-8 py-3 text-lg hover:bg-orange-600"
         onClick={handleViewAllClick}
       >
         View All

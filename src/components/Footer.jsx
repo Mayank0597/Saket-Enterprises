@@ -6,7 +6,7 @@ import CompanyLogo from "/src/assets/Frame 3 (2).png";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1C1C1C] text-white py-20 px-4">
+    <footer className="bg-[#1C1C1C] text-white pt-20 pb-8 px-4">
       {/* Contact Section */}
       <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 md:px-24">
         <h2 className="text-xl md:text-2xl font-bold text-[#FFFF]">
@@ -17,13 +17,13 @@ const Footer = () => {
         </h2>
 
         {/* Contact form */}
-        <div className="flex items-center space-x-2 w-full md:w-auto">
+        <div className="flex items-center w-full md:w-auto">
           <input
             type="text"
             placeholder="Email or Phone no."
-            className="w-full md:w-auto bg-[#1C1C1C] border border-gray-500 text-white p-2 rounded-md focus:outline-none"
+            className="w-full md:w-auto text-[#9A9A9A] bg-[#5c5c5c] p-2 rounded-l-sm focus:outline-none"
           />
-          <button className="bg-[#E2761B] text-white px-4 py-2 rounded-md">
+          <button className="bg-[#E2761B] text-white px-4 py-2 rounded-r-sm">
             Submit
           </button>
         </div>
