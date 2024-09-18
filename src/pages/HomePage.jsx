@@ -5,6 +5,7 @@ import ServicesSection from "../components/ServicesSection";
 import InspirationSection from "../components/InspirationSection";
 import SpecialFeatures from "../components/SpecialFeatures";
 import WhyChooseUs from "../components/WhyChooseUs";
+import OurPartners from "../components/OurPartners";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <InspirationSection />
       <WhyChooseUs />
       <SpecialFeatures />
+      <OurPartners />
     </>
   );
 };

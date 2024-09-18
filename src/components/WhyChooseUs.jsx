@@ -74,7 +74,7 @@ const WhyChooseUs = () => {
                   left: "168%",
                 }}
               >
-                <img src={icon1} alt="Icon 1" className="w-20 h-20 " />
+                <img src={icon1} alt="Icon 1" className="w-20 h-20 shadow-lg rounded-full" />
                 <div className="text-left ml-10 w-[600px]">
                   <h4 className="text-lg text-[#393939] font-semibold whitespace-nowrap">
                     Unmatched Quality
@@ -95,7 +95,7 @@ const WhyChooseUs = () => {
                   left: "207%",
                 }}
               >
-                <img src={icon2} alt="Icon 2" className="w-20 h-20" />
+                <img src={icon2} alt="Icon 2" className="w-20 h-20 shadow-lg rounded-full" />
                 <div className="text-left ml-10 w-[600px]">
                   <h4 className="text-lg text-[#393939] font-semibold whitespace-nowrap">
                     Expert Craftsmanship
@@ -115,7 +115,7 @@ const WhyChooseUs = () => {
                   left: "208%",
                 }}
               >
-                <img src={icon3} alt="Icon 3" className="w-20 h-20" />
+                <img src={icon3} alt="Icon 3" className="w-20 h-20 shadow-lg rounded-full" />
                 <div className="text-left ml-10 w-[600px]">
                   <h4 className="text-lg text-[#393939] font-semibold whitespace-nowrap">
                     Diverse Product Range
@@ -136,7 +136,7 @@ const WhyChooseUs = () => {
                   left: "168%",
                 }}
               >
-                <img src={icon4} alt="Icon 4" className="w-20 h-20" />
+                <img src={icon4} alt="Icon 4" className="w-20 h-20 shadow-lg rounded-full" />
                 <div className="text-left ml-10 w-[600px]">
                   <h4 className="text-lg text-[#393939] font-semibold whitespace-nowrap">
                     Customer-Centric Approach
