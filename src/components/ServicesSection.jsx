@@ -62,7 +62,7 @@ const ServicesSection = () => {
 
       {/* View All Button */}
       <button
-        className="bg-[#E2761B] text-white px-8 py-3 text-lg hover:bg-orange-600"
+        className="bg-[#E2761B] text-white px-8 py-3 text-lg btn-animation rounded"
         onClick={handleViewAllClick}
       >
         View All

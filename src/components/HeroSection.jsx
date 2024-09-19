@@ -26,7 +26,7 @@ const HeroSection = () => {
           <p className="text-lg md:text-base">
             From elegant hardwood to artistic artefacts, discover furniture that reflects craftmanship and timeless design.
           </p>
-          <button className="bg-[#E2761B] text-white px-6 py-3 rounded mt-4" onClick={handleContactClick}>
+          <button className="bg-[#E2761B] text-white px-6 py-3 rounded mt-4 btn-animation" onClick={handleContactClick}>
             Contact Us
           </button>
         </div>

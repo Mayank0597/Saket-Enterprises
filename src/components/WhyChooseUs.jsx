@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
       />
 
       {/* Heading */}
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-40 z-10">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-40 z-10 text-[#393939]">
         Why <span className="text-[#E2761B]">Choose Us</span> ?
       </h2>
 
@@ -61,7 +61,7 @@ const WhyChooseUs = () => {
               className="w-full h-full object-cover rounded-full"
             />
             {/* Orange Circular Line */}
-            <div className="absolute w-[603px] h-[603px] rounded-full border-4 border-[#E2761B] z-10"></div>
+            <div className="absolute w-[603px] h-[603px] rounded-full border-[1.708px] border-[#E2761B] z-10"></div>
 
             {/* Icons on Circular Line */}
             <div className="absolute w-[360px] h-[360px] rounded-full z-20">

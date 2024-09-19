@@ -106,13 +106,14 @@ const ContactForm = () => {
         />
 
         {/* Contact Information on Image */}
-        <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center space-y-12 text-center text-white">
+        <div className="absolute top-1/4 left-1/4 transform translate-y-1/4 -translate-x-1/5 origin-center justify-center items-center text-white max-w-[407px] w-full">
+          <div className='flex flex-col items-start gap-10'>
           {/* Section 1: Address */}
-          <div className="flex flex-row items-center">
+          <div className="flex flex-row justify-center items-center">
             <img
               src={logoIcon1}
               alt="Address Icon"
-              className="w-10 h-10 mb-2 mr-5"
+              className="w-[20px] h-[30px] mr-3"
             />
             <div className="flex flex-col items-start">
               <h3 className="text-lg font-bold text-[#E2761B]">Address</h3>
@@ -121,8 +122,12 @@ const ContactForm = () => {
           </div>
 
           {/* Section 2: Phone */}
-          <div className="flex flex-row items-center">
-            <img src={logoIcon2} alt="Phone Icon" className="w-10 h-10 mb-2 mr-5" />
+          <div className="flex flex-row items-center justify-center">
+            <img
+              src={logoIcon2}
+              alt="Phone Icon"
+              className="w-[23px] h-[30px] mr-3"
+            />
             <div className="flex flex-col items-start">
               <h3 className="text-lg font-bold text-[#E2761B]">Phone</h3>
               <p className="text-sm">+91 97523-24111</p>
@@ -130,12 +135,19 @@ const ContactForm = () => {
           </div>
 
           {/* Section 3: Email */}
-          <div className="flex flex-col items-center">
-            <img src={logoIcon3} alt="Email Icon" className="w-10 h-10 mb-2" />
-            <h3 className="text-lg font-bold">Email</h3>
-            <p className="text-sm">hello@houseofbastar.com</p>
+          <div className="flex flex-row items-center justify-center">
+            <img
+              src={logoIcon3}
+              alt="Email Icon"
+              className="w-[30px] h-[25px] mr-3"
+            />
+            <div className="flex flex-col items-start">
+              <h3 className="text-lg font-bold text-[#E2761B]">Email</h3>
+              <p className="text-sm">hello@houseofbastar.com</p>
+            </div>
           </div>
         </div>
+      </div>
       </div>
 
       {/* Contact Form */}

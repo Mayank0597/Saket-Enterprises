@@ -1,5 +1,5 @@
 import React from "react";
-import logo1 from "/src/assets/Frame 1992.png"; 
+import logo1 from "/src/assets/Frame 1992.png";
 import logo2 from "/src/assets/images (1) 1.png";
 import logo3 from "/src/assets/merakii 1.png";
 import logo4 from "/src/assets/hafele_logo 1.png";
@@ -15,89 +15,27 @@ import logo13 from "/src/assets/united 1.png";
 
 const OurPartners = () => {
   return (
-    <div className="w-full py-16 px-4 md:px-8 lg:px-16 xl:px-24">
+    <div className="py-16 px-4 md:px-8 lg:px-16 xl:px-24">
       {/* Heading */}
       <h2 className="text-2xl sm:text-3xl md:text-[46px] font-bold text-center mb-20 text-[#393939]">
         Our <span className="text-[#E2761B]">Partners</span>
       </h2>
-
       {/* Logos */}
-      <div className="flex flex-col items-center space-y-28">
-        {/* First Row */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-20 justify-items-center">
-          <img
-            src={logo1}
-            alt="Logo 1"
-            className="w-20 sm:w-24 md:w-[123px] h-auto"
-          />
-          <img
-            src={logo2}
-            alt="Logo 2"
-            className="w-20 sm:w-24 md:w-[197px] h-auto"
-          />
-          <img
-            src={logo3}
-            alt="Logo 3"
-            className="w-20 sm:w-24 md:w-[166px] h-auto"
-          />
-          <img
-            src={logo4}
-            alt="Logo 4"
-            className="w-20 sm:w-24 md:w-[218px] h-auto"
-          />
-          <img
-            src={logo5}
-            alt="Logo 5"
-            className="w-20 sm:w-24 md:w-[210px] h-auto"
-          />
-        </div>
-
-        {/* Second Row */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-20 justify-items-center">
-          <img
-            src={logo6}
-            alt="Logo 6"
-            className="w-20 sm:w-24 md:w-[173px] h-auto"
-          />
-          <img
-            src={logo7}
-            alt="Logo 7"
-            className="w-20 sm:w-24 md:w-[184px] h-auto"
-          />
-          <img
-            src={logo8}
-            alt="Logo 8"
-            className="w-20 sm:w-24 md:w-[175px] h-auto"
-          />
-          <img
-            src={logo9}
-            alt="Logo 9"
-            className="w-20 sm:w-24 md:w-[170px] h-auto"
-          />
-          <img
-            src={logo10}
-            alt="Logo 10"
-            className="w-20 sm:w-24 md:w-[178px] h-auto"
-          />
-        </div>
-
-        {/* Third Row (Centered with fewer logos) */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-20 justify-items-center">
-          <img
-            src={logo11}
-            alt="Logo 11"
-            className="w-20 sm:w-24 md:w-[154px] h-auto"
-          />
-          <img
-            src={logo12}
-            alt="Logo 12"
-            className="w-20 sm:w-24 md:w-[157px] h-auto"
-          />
-          <img
-            src={logo13}
-            alt="Logo 13"
-            className="w-20 sm:w-24 md:w-[153px] h-auto"
-          />
+      <div className="flex justify-center">
+        <div className="flex flex-wrap justify-center items-center gap-10 max-w-[1200px]">
+          <img src={logo1} alt="Logo 1" className="max-w-[103px]" />
+          <img src={logo2} alt="Logo 2" className="max-w-[197px]" />
+          <img src={logo3} alt="Logo 3" className="max-w-[166px]" />
+          <img src={logo4} alt="Logo 4" className="max-w-[218px]" />
+          <img src={logo5} alt="Logo 5" className="max-w-[209px]" />
+          <img src={logo6} alt="Logo 6" className="max-w-[173px]" />
+          <img src={logo7} alt="Logo 7" className="max-w-[184px]" />
+          <img src={logo8} alt="Logo 8" className="max-w-[175px]" />
+          <img src={logo9} alt="Logo 9" className="max-w-[170px]" />
+          <img src={logo10} alt="Logo 10" className="max-w-[178px]" />
+          <img src={logo11} alt="Logo 11" className="max-w-[154px]" />
+          <img src={logo12} alt="Logo 12" className="max-w-[157px]" />
+          <img src={logo13} alt="Logo 13" className="max-w-[153px]" />
         </div>
       </div>
     </div>

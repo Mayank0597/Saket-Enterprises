@@ -10,7 +10,7 @@ const InspirationSection = () => {
           Inspiration from the Artifacts we love
         </h2>
         <p className="text-lg md:text-xl text-[#808080] mb-8">Visit our Website!</p>
-        <button className="bg-[#E2761B] text-white px-6 py-3 hover:bg-orange-600 transition duration-300 w-[154px]">
+        <button className="bg-[#E2761B] text-white px-6 py-3 btn-animation rounded transition duration-300 w-[154px]">
           View Website
         </button>
       </div>
