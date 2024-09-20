@@ -18,7 +18,7 @@ const AboutUsPageComp2 = () => {
             />
             <div className="flex-1 bg-[#FAFAFA] p-8 lg:p-10">
               <h2 className="text-2xl font-bold mb-4 text-[#393939]">{heading}</h2>
-              <p className="text-lg text-[#9F9F9F]">{paragraph}</p>
+              <p className="text-lg open-sans font-medium text-[#9F9F9F] max-w-[558px]">{paragraph}</p>
             </div>
           </>
         ) : (
@@ -26,7 +26,7 @@ const AboutUsPageComp2 = () => {
             {/* Grey Area on Left */}
             <div className="flex-1 bg-[#FAFAFA] p-8 lg:p-10">
               <h2 className="text-2xl font-bold mb-4 text-[#393939]">{heading}</h2>
-              <p className="text-lg text-[#9F9F9F]">{paragraph}</p>
+              <p className="text-lg open-sans font-medium text-[#9F9F9F] max-w-[558px]">{paragraph}</p>
             </div>
             <img
               src={imageSrc}

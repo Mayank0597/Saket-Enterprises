@@ -36,8 +36,8 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between space-y-6 md:space-y-0 px-24">
         {/* Logo and text */}
         <div className="flex flex-col items-start md:w-[425px]">
-          <img src={CompanyLogo} alt="Company Logo" className="w-32 mb-2" />
-          <p className="text-[#9A9A9A]">
+          <img src={CompanyLogo} alt="Company Logo" className="w-52 mb-2" />
+          <p className="text-[#9A9A9A] open-sans font-normal text-base">
             Saket Enterprises is a pioneering company based in Abhanpur, Raipur,
             Chhattisgarh. It specializes in high-quality Plywood, Hardware,
             Household Furniture, Bastar Art, Artifacts and Wood. Under the
@@ -103,7 +103,7 @@ const Footer = () => {
 
       {/* Copyright Section */}
       <div className="mt-8 text-center">
-        <p className="text-[#9A9A9A]">
+        <p className="text-[#9A9A9A] text-base">
           &copy; All Rights Reserved by{" "}
           <span className="text-[#E2761B] font-semibold">
             Saket Enterprises

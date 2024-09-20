@@ -23,7 +23,7 @@ const HeroSection = () => {
           <h1 className="text-4xl md:text-4xl font-bold">
             Furnishing Your Lifestyle
           </h1>
-          <p className="text-lg md:text-base">
+          <p className="text-base md:text-base open-sans font-medium max-w-[450px]">
             From elegant hardwood to artistic artefacts, discover furniture that reflects craftmanship and timeless design.
           </p>
           <button className="bg-[#E2761B] text-white px-6 py-3 rounded mt-4 btn-animation" onClick={handleContactClick}>

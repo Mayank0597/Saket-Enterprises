@@ -28,7 +28,7 @@ const ServicesSection = () => {
             className="w-64 h-64 md:w-[427px] md:h-auto object-cover mb-4"
           />
           <h3 className="text-xl font-semibold text-[#393939]">Plywood</h3>
-          <p className="text-[#9F9F9F] text-start">
+          <p className="text-[#9F9F9F] text-start open-sans text-base">
             We offer high-quality plywood that stands out for its strength, durability and versatility.
           </p>
         </div>
@@ -41,7 +41,7 @@ const ServicesSection = () => {
             className="w-64 h-64 md:w-[427px] md:h-auto object-cover mb-4"
           />
           <h3 className="text-xl font-semibold text-[#393939]">Mica</h3>
-          <p className="text-[#9F9F9F] text-start">
+          <p className="text-[#9F9F9F] text-start open-sans text-base">
             Our range of mica sheets is designed to be an ideal choice of kitchens, bathrooms and high-traffic areas.
           </p>
         </div>
@@ -54,7 +54,7 @@ const ServicesSection = () => {
             className="w-64 h-64 md:w-[427px] md:h-auto object-cover mb-4"
           />
           <h3 className="text-xl font-semibold text-[#393939]">Veneer Plywood</h3>
-          <p className="text-[#9F9F9F] text-start">
+          <p className="text-[#9F9F9F] text-start open-sans text-base">
            For those who seek a natural wood finish, our veneer plywood offers a perfect solution.
           </p>
         </div>

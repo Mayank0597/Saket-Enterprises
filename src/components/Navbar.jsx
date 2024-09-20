@@ -73,7 +73,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-16 flex justify-between items-center py-4">
         {/* Logo */}
         <div className="text-xl font-bold">
-          <img src={Logo} alt="Company Logo" className="h-8 w-auto" />
+          <img src={Logo} alt="Company Logo" className="w-[145px]" />
         </div>
 
         {/* Hamburger Menu Icon for small screens */}
@@ -117,6 +117,15 @@ const Navbar = () => {
             }
           >
             Services
+          </NavLink>
+
+          <NavLink
+            to="/projects"
+            className={({ isActive }) =>
+              isActive ? "text-[#E2761B]" : "text-black"
+            }
+          >
+            Projects
           </NavLink>
 
           <NavLink

@@ -76,7 +76,7 @@ const BrochureCard = () => {
           </h2>
 
           {/* Lorem Text */}
-          <p className="mt-4 text-[#4B4B4B]">
+          <p className="mt-4 text-[#4B4B4B] open-sans text-lg font-medium">
             Get detailed insights into our products, designs and special
             features.
           </p>

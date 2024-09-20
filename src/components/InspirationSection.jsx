@@ -9,7 +9,7 @@ const InspirationSection = () => {
         <h2 className="text-[#393939] text-3xl md:text-4xl font-bold mb-4">
           Inspiration from the Artifacts we love
         </h2>
-        <p className="text-lg md:text-xl text-[#808080] mb-8">Visit our Website!</p>
+        <p className="text-lg md:text-2xl open-sans text-[#808080] mb-8">Visit our Website!</p>
         <button className="bg-[#E2761B] text-white px-6 py-3 btn-animation rounded transition duration-300 w-[154px]">
           View Website
         </button>

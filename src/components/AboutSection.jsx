@@ -147,7 +147,7 @@ const AboutSection = () => {
           </h2>
 
           {/* Description */}
-          <p className="text-lg md:text-xl text-[#9F9F9F]">
+          <p className="text-lg open-sans font-medium text-[#9F9F9F]">
             Saket Enterprises is a leading name in the furniture and wood
             industry, known for delivering high quality Plywood, Hardware,
             Household furniture, Bastar Art, and Artifacts. Founded by Saket
@@ -167,7 +167,7 @@ const AboutSection = () => {
             <div className="flex flex-col items-center text-center w-full md:w-1/3">
               <img src={logo1} alt="Logo 1" className="w-16 h-auto mb-4" />
               <h3 className="font-semibold text-lg text-[#393939]">1000+ Happy Customers</h3>
-              <p className="text-xs text-[#9F9F9F]">
+              <p className="text-sm text-[#9F9F9F] open-sans">
                 Serving 1000+ satisfied customers.
               </p>
             </div>
@@ -179,7 +179,7 @@ const AboutSection = () => {
             <div className="flex flex-col items-center text-center w-full md:w-1/3">
               <img src={logo2} alt="Logo 2" className="w-12 h-auto mb-4" />
               <h3 className="font-semibold text-lg text-[#393939]">Assured Quality</h3>
-              <p className="text-xs text-[#9F9F9F]">
+              <p className="text-sm open-sans text-[#9F9F9F]">
                 Guaranteed quality every time.
               </p>
             </div>
@@ -191,7 +191,7 @@ const AboutSection = () => {
             <div className="flex flex-col items-center text-center w-full md:w-1/3">
               <img src={logo3} alt="Logo 3" className="w-16 h-auto mb-4" />
               <h3 className="font-semibold text-lg text-[#393939]">Express Delivery</h3>
-              <p className="text-xs text-[#9F9F9F]">
+              <p className="text-sm open-sans text-[#9F9F9F]">
                 Reliable and confirmed delivery.
               </p>
             </div>

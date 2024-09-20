@@ -80,7 +80,7 @@ const AboutUsPageComp3 = () => {
               <h2 className="text-xl lg:text-4xl font-bold mb-4">
                 Our <span className="text-[#E2761B]">Mission</span>
               </h2>
-              <p className="text-sm lg:text-base text-justify">
+              <p className="text-sm lg:text-lg text-justify open-sans font-medium">
                 Our mission is to create Exquisite and Handcrafted furniture
                 that enhances the beauty and comfort of the living spaces in
                 your homes.
@@ -95,7 +95,7 @@ const AboutUsPageComp3 = () => {
               <h2 className="text-xl lg:text-4xl font-bold mb-4">
                 Our <span className="text-[#E2761B]">Vision</span>
               </h2>
-              <p className="text-sm lg:text-base text-justify">
+              <p className="text-sm lg:text-lg text-justify open-sans font-medium">
                 Our mission is to create Exquisite and Handcrafted furniture
                 that enhances the beauty and comfort of the living spaces in
                 your homes.
@@ -110,7 +110,7 @@ const AboutUsPageComp3 = () => {
               <h2 className="text-xl lg:text-4xl font-bold mb-4">
                 Our <span className="text-[#E2761B]">Values</span>
               </h2>
-              <p className="text-sm lg:text-base text-justify">
+              <p className="text-sm lg:text-lg text-justify open-sans font-medium">
                 Our mission is to create Exquisite and Handcrafted furniture
                 that enhances the beauty and comfort of the living spaces in
                 your homes.

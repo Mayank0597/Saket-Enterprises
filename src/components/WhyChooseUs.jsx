@@ -79,7 +79,7 @@ const WhyChooseUs = () => {
                   <h4 className="text-lg text-[#393939] font-semibold whitespace-nowrap">
                     Unmatched Quality
                   </h4>
-                  <p className="text-sm text-[#9F9F9F]">
+                  <p className="text-[16px] font-medium open-sans text-[#9F9F9F] ">
                     We pride ourselves on offering only the highest quality
                     plywood, hardware, and furniture, crafted to ensure
                     durability and aesthetic appeal.
@@ -100,7 +100,7 @@ const WhyChooseUs = () => {
                   <h4 className="text-lg text-[#393939] font-semibold whitespace-nowrap">
                     Expert Craftsmanship
                   </h4>
-                  <p className="text-sm text-[#9F9F9F]">
+                  <p className="text-[16px] font-medium open-sans text-[#9F9F9F]">
                     Led by Saket Tiwari, our team provides traditional expertise
                     and modern techniques to deliver exceptional results.
                   </p>
@@ -120,7 +120,7 @@ const WhyChooseUs = () => {
                   <h4 className="text-lg text-[#393939] font-semibold whitespace-nowrap">
                     Diverse Product Range
                   </h4>
-                  <p className="text-sm text-[#9F9F9F]">
+                  <p className="text-[16px] font-medium open-sans text-[#9F9F9F]">
                     Whether you're looking for plywood, elegant veneer or unique
                     Bastar Art artefacts, we offer a comprehensive selection to
                     meet all your needs.
@@ -141,7 +141,7 @@ const WhyChooseUs = () => {
                   <h4 className="text-lg text-[#393939] font-semibold whitespace-nowrap">
                     Customer-Centric Approach
                   </h4>
-                  <p className="text-sm text-[#9F9F9F]">
+                  <p className="text-[16px] font-medium open-sans text-[#9F9F9F]">
                     At Saket Enterprises, Our dedicated team works closely with
                     you to understand your needs and provide personalized
                     solutions.
