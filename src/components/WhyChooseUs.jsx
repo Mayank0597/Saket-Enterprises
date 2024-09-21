@@ -5,10 +5,10 @@ import icon2 from "/src/assets/Frame 16.png";
 import icon3 from "/src/assets/Frame 11.png";
 import icon4 from "/src/assets/Frame 12.png";
 import bgImage1 from "/src/assets/material-symbols-light_dresser-outline.png"; 
-import bgImage2 from "/src/assets/map_furniture-store.png"; 
-import bgImage3 from "/src/assets/iconoir_sofa.png"; 
-import bgImage4 from "/src/assets/Group.png"; 
-import bgImage5 from "/src/assets/mynaui_lamp.png";
+import bgImage2 from "/src/assets/map_furniture-store (2).png"; 
+import bgImage3 from "/src/assets/iconoir_sofa (2).png"; 
+import bgImage4 from "/src/assets/Group (2).png"; 
+import bgImage5 from "/src/assets/mynaui_lamp (2).png";
 
 const WhyChooseUs = () => {
   return (
@@ -41,12 +41,12 @@ const WhyChooseUs = () => {
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[58px] h-[92px]"
+        className="absolute z-0 w-[58px] h-[91px]"
         style={{ left: "1050px", bottom: "50px" }} // Positioned at the bottom
       />
 
       {/* Heading */}
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-40 z-10 text-[#393939]">
+      <h2 className="text-3xl md:text-[46px] font-semibold text-center mb-40 z-10 text-[#393939]">
         Why <span className="text-[#E2761B]">Choose Us</span> ?
       </h2>
 
@@ -58,7 +58,7 @@ const WhyChooseUs = () => {
             <img
               src={circularImage}
               alt="Circular Main"
-              className="w-full h-full object-cover rounded-full"
+              className="w-full h-full object-cover rounded-full absolute -left-10"
             />
             {/* Orange Circular Line */}
             <div className="absolute w-[603px] h-[603px] rounded-full border-[1.708px] border-[#E2761B] z-10"></div>
@@ -79,7 +79,7 @@ const WhyChooseUs = () => {
                   <h4 className="text-lg text-[#393939] font-semibold whitespace-nowrap">
                     Unmatched Quality
                   </h4>
-                  <p className="text-[16px] font-medium open-sans text-[#9F9F9F] ">
+                  <p className="text-base font-medium open-sans text-[#9F9F9F] ">
                     We pride ourselves on offering only the highest quality
                     plywood, hardware, and furniture, crafted to ensure
                     durability and aesthetic appeal.

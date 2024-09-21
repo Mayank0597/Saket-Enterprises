@@ -27,21 +27,40 @@ const ServicePage = () => {
         {imageOnLeft ? (
           <>
             {/* Left-aligned Grey Area with Image */}
-            <div className="relative w-full lg:w-[390px] h-[646px] bg-[#D9D9D9]">
+            {/* <div className="relative w-full lg:w-[390px] h-[646px] bg-[#D9D9D9]">
               <img
                 src={imageSrc}
                 alt="Service"
                 className="absolute w-full left-[119.5px] top-1/2 -translate-y-1/2 z-10"
               />
-            </div>
+            </div> */}
             {/* Heading and Text */}
-            <div className="flex-1 lg:pl-56 lg:pt-52 ">
+            {/* <div className="flex-1 lg:pl-56 lg:pt-52 ">
               <h2 className="text-[46px] font-bold text-[#393939]">
                 {heading}
               </h2>
               <p className="text-lg open-sans font-medium text-[#9F9F9F] max-w-[710px]">
                 {paragraph}
               </p>
+            </div> */}
+
+            <div className="relative h-[646px]">
+              <div className="absolute w-[390px] h-full bg-[#D9D9D9] -z-50"></div>
+              <div class="flex justify-center items-center h-full gap-16">
+                <div class="w-full md:w-4/12">
+                  <img src={imageSrc} alt="Service" className="" />
+                </div>
+                <div class="w-full md:w-5/12">
+                  <div className="flex flex-col">
+                    <h2 className="text-[46px] font-bold text-[#393939]">
+                      {heading}
+                    </h2>
+                    <p className="text-lg open-sans font-medium text-[#9F9F9F] max-w-[710px]">
+                      {paragraph}
+                    </p>
+                  </div>{" "}
+                </div>
+              </div>
             </div>
           </>
         ) : (

@@ -135,20 +135,20 @@ const SpecialFeatures = () => {
       >
         <div className="relative w-full h-[510px] flex flex-col items-center justify-center text-center">
           {/* Heading */}
-          <h2 className="relative text-4xl md:text-5xl font-bold mb-28 z-20">
-            <span className="text-[#FFFFFF]">Special </span>
-            <span className="text-[#E2761B]">Features</span>
+          <h2 className="relative text-4xl md:text-5xl font-semibold mb-28 z-20 text-[#FFF]">
+            Special
+            <span className="text-[#E2761B]"> Features</span>
           </h2>
 
           {/* Icons with Text */}
-          <div className="relative flex space-x-28 justify-center z-20">
+          <div className="relative flex space-x-24 justify-center z-20">
             <div className="flex flex-col items-center justify-center">
               <img
                 src={icon1}
                 alt="Icon 1"
-                className="w-20 shadow-lg rounded-full"
+                className="w-20 rounded-full"
               />
-              <p className="text-[#FFFFFF] mt-5 font-semibold">
+              <p className="text-[#FFF] mt-5 font-semibold text-[19px]">
                 Top-Quality Materials
               </p>
             </div>
@@ -156,9 +156,9 @@ const SpecialFeatures = () => {
               <img
                 src={icon2}
                 alt="Icon 2"
-                className="w-20 shadow-lg rounded-full"
+                className="w-20 rounded-full"
               />
-              <p className="text-[#FFFFFF] mt-5 font-semibold">
+              <p className="text-[#FFF] mt-5 font-semibold text-[19px]">
                 Unique Design Elements
               </p>
             </div>
@@ -166,9 +166,9 @@ const SpecialFeatures = () => {
               <img
                 src={icon3}
                 alt="Icon 3"
-                className="w-20 shadow-lg rounded-full"
+                className="w-20 rounded-full"
               />
-              <p className="text-[#FFFFFF] mt-5 font-semibold">
+              <p className="text-[#FFF] mt-5 font-semibold text-[19px]">
                 Customizable Options
               </p>
             </div>
@@ -176,9 +176,9 @@ const SpecialFeatures = () => {
               <img
                 src={icon4}
                 alt="Icon 4"
-                className="w-20 shadow-lg rounded-full"
+                className="w-20 rounded-full"
               />
-              <p className="text-[#FFFFFF] mt-5 font-semibold">
+              <p className="text-[#FFF] mt-5 font-semibold text-[19px]">
                 Sustainable Production
               </p>
             </div>
@@ -186,9 +186,9 @@ const SpecialFeatures = () => {
               <img
                 src={icon5}
                 alt="Icon 5"
-                className="w-20 shadow-lg rounded-full"
+                className="w-20 rounded-full"
               />
-              <p className="text-[#FFFFFF] mt-5 font-semibold">
+              <p className="text-[#FFF] mt-5 font-semibold text-[19px]">
                 Exceptional Service
               </p>
             </div>
