@@ -4,7 +4,9 @@ import FbImage from "/src/assets/Frame 27.png";
 import instaImage from "/src/assets/Frame 28.png";
 import CompanyLogo from "/src/assets/Frame 3 (2).png";
 
+
 const Footer = () => {
+  
   return (
     <footer className="bg-[#1C1C1C] text-white pt-[100px] pb-8 px-4">
       {/* Contact Section */}

@@ -77,10 +77,10 @@ const AboutUsPageComp3 = () => {
           <div className="flex flex-wrap justify-between w-full items-center">
             {/* Section 1 */}
             <div className="flex flex-col justify-center items-start px-4 lg:px-4 py-6 lg:py-0 max-w-[337px] ">
-              <h2 className="text-xl lg:text-4xl font-bold mb-4">
+              <h2 className="text-xl lg:text-[46px] font-semibold mb-5">
                 Our <span className="text-[#E2761B]">Mission</span>
               </h2>
-              <p className="text-sm lg:text-lg text-justify open-sans font-medium">
+              <p className="text-sm lg:text-base text-justify open-sans font-medium text-[#F6F6F6]">
                 Our mission is to create Exquisite and Handcrafted furniture
                 that enhances the beauty and comfort of the living spaces in
                 your homes.
@@ -92,10 +92,10 @@ const AboutUsPageComp3 = () => {
 
             {/* Section 2 */}
             <div className="flex flex-col justify-center items-start px-4 lg:px-4 pl-4 pr-4 py-6 lg:py-0 max-w-[337px] ">
-              <h2 className="text-xl lg:text-4xl font-bold mb-4">
+              <h2 className="text-xl lg:text-[46px] font-semibold mb-5">
                 Our <span className="text-[#E2761B]">Vision</span>
               </h2>
-              <p className="text-sm lg:text-lg text-justify open-sans font-medium">
+              <p className="text-sm lg:text-base text-justify open-sans font-medium text-[#F6F6F6]">
                 Our mission is to create Exquisite and Handcrafted furniture
                 that enhances the beauty and comfort of the living spaces in
                 your homes.
@@ -107,10 +107,10 @@ const AboutUsPageComp3 = () => {
 
             {/* Section 3 */}
             <div className="flex flex-col justify-center items-start px-4 lg:px-4 pl-4 py-6 lg:py-0 max-w-[337px] ">
-              <h2 className="text-xl lg:text-4xl font-bold mb-4">
+              <h2 className="text-xl lg:text-[46px] font-semibold mb-5">
                 Our <span className="text-[#E2761B]">Values</span>
               </h2>
-              <p className="text-sm lg:text-lg text-justify open-sans font-medium">
+              <p className="text-sm lg:text-base text-justify open-sans font-medium text-[#F6F6F6]">
                 Our mission is to create Exquisite and Handcrafted furniture
                 that enhances the beauty and comfort of the living spaces in
                 your homes.

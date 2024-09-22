@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import circularImage from "/src/assets/Ellipse 1.png";
 import icon1 from "/src/assets/Frame 18.png";
 import icon2 from "/src/assets/Frame 16.png";
@@ -9,8 +9,13 @@ import bgImage2 from "/src/assets/map_furniture-store (2).png";
 import bgImage3 from "/src/assets/iconoir_sofa (2).png"; 
 import bgImage4 from "/src/assets/Group (2).png"; 
 import bgImage5 from "/src/assets/mynaui_lamp (2).png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const WhyChooseUs = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <div className="relative w-full bg-white pb-36 pt-20 flex flex-col items-center">
       {/* Background Images */}
@@ -46,12 +51,12 @@ const WhyChooseUs = () => {
       />
 
       {/* Heading */}
-      <h2 className="text-3xl md:text-[46px] font-semibold text-center mb-40 z-10 text-[#393939]">
+      <h2 className="text-3xl md:text-[46px] font-semibold text-center mb-40 z-10 text-[#393939]" data-aos="fade-down">
         Why <span className="text-[#E2761B]">Choose Us</span> ?
       </h2>
 
       {/* Circular Section */}
-      <div className="flex w-full justify-start items-center relative z-10">
+      <div className="flex w-full justify-start items-center relative z-10" data-aos="fade-right">
         {/* Circular Image */}
         <div className="relative flex justify-start">
           <div className="relative -left-10 w-[517px] h-[517px] flex items-center justify-center">

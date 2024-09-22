@@ -41,11 +41,16 @@
 
 // export default BrochureCard;
 
-import React from "react";
+import React, { useEffect } from "react";
 import { Parallax } from "react-parallax"; // Import Parallax
 import backgroundImage from "/src/assets/Brochure.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const BrochureCard = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <Parallax
       bgImage={backgroundImage}
@@ -59,6 +64,7 @@ const BrochureCard = () => {
       <div className="relative">
         {/* Card */}
         <div
+          data-aos="flip-right"
           className="absolute"
           style={{
             left: "149px",

@@ -4,34 +4,41 @@ import image2 from "/src/assets/close-up-details-wood-surface 1 (1).png";
 import image3 from "/src/assets/close-up-details-wood-surface 1 (2).png";
 
 const AboutUsPageComp2 = () => {
-  
   const AboutUsSection = ({ imageSrc, heading, paragraph, imageOnLeft }) => {
     return (
-      <div className="flex flex-col lg:flex-row w-full max-w-screen-xl mx-auto mb-10 lg:mb-20 px-4 lg:px-0.5">
+      <div className="flex flex-col lg:flex-row w-full max-w-screen-xl mx-auto mb-10 lg:my-20 px-4 lg:px-0.5 bg-[#F3F2F2] rounded-full">
         {imageOnLeft ? (
           <>
             {/* Image on Left */}
             <img
               src={imageSrc}
               alt="About Us"
-              className="h-[400px] w-full lg:w-[595px] object-cover"
+              className="h-[400px] w-full lg:w-[595px] rounded-lg"
             />
-            <div className="flex-1 bg-[#FAFAFA] p-8 lg:p-10">
-              <h2 className="text-2xl font-bold mb-4 text-[#393939]">{heading}</h2>
-              <p className="text-lg open-sans font-medium text-[#9F9F9F] max-w-[558px]">{paragraph}</p>
+            <div className="flex-1 bg-[#F3F2F2] p-8 lg:p-10 rounded-lg">
+              <h2 className="text-4xl font-semibold mb-4 text-[#393939] ml-[104px] mr-[63px]">
+                {heading}
+              </h2>
+              <p className="text-base open-sans font-normal text-[#9F9F9F] max-w-[558px] text-justify ml-[104px] mr-[63px]">
+                {paragraph}
+              </p>
             </div>
           </>
         ) : (
           <>
             {/* Grey Area on Left */}
-            <div className="flex-1 bg-[#FAFAFA] p-8 lg:p-10">
-              <h2 className="text-2xl font-bold mb-4 text-[#393939]">{heading}</h2>
-              <p className="text-lg open-sans font-medium text-[#9F9F9F] max-w-[558px]">{paragraph}</p>
+            <div className="flex-1 bg-[#F3F2F2] p-8 lg:p-10 rounded-lg">
+              <h2 className="text-4xl font-semibold mb-4 text-[#393939] mr-[99px] ml-[65px]">
+                {heading}
+              </h2>
+              <p className="text-base open-sans font-normal text-[#9F9F9F] max-w-[558px] text-justify mr-[99px] ml-[65px]">
+                {paragraph}
+              </p>
             </div>
             <img
               src={imageSrc}
               alt="About Us"
-              className="h-[400px] w-full lg:w-[595px] object-cover"
+              className="h-[400px] w-full lg:w-[595px] rounded-lg"
             />
           </>
         )}

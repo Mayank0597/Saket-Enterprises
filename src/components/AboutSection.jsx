@@ -100,15 +100,20 @@
 
 // export default AboutSection;
 
-import React from "react";
+import React, { useEffect } from "react";
 import rectangleImage from "/src/assets/Frame 23.png";
 import overlappingImage from "/src/assets/Frame 73.png";
 import topRightImage from "/src/assets/quarter circle4.png";
 import logo1 from "/src/assets/bi_people.png";
 import logo2 from "/src/assets/achievement_9375493 2.png";
 import logo3 from "/src/assets/ph_truck-light.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const AboutSection = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
     <div className="relative w-full flex flex-col md:flex-row items-start">
       {/* Top-right Image */}
@@ -121,7 +126,7 @@ const AboutSection = () => {
       </div>
       <div className="flex flex-wrap">
         {/* Left-side images */}
-        <div className="relative flex-shrink-0">
+        <div className="relative flex-shrink-0" data-aos="fade-right">
           {/* Grey Rectangle Image */}
 
           <img
@@ -132,6 +137,7 @@ const AboutSection = () => {
 
           {/* Overlapping Image */}
           <img
+            
             src={overlappingImage}
             alt="Overlapping Image"
             className="absolute left-[152px] top-[128px] w-[390px] h-[544px] z-10"
@@ -139,7 +145,10 @@ const AboutSection = () => {
         </div>
 
         {/* Right-side Content */}
-        <div className="flex flex-col justify-center space-y-8 md:pl-64 text-justify">
+        <div
+          className="flex flex-col justify-center space-y-8 md:pl-64 text-justify"
+          data-aos="fade-left"
+        >
           {/* Heading */}
           <h2 className="text-4xl md:text-[46px] font-semibold">
             <span className="text-[#393939]">About Us </span>

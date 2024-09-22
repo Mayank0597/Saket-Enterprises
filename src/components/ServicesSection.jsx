@@ -1,10 +1,16 @@
-import React from "react";
-import image1 from "/src/assets/Frame 53.png"; 
+import React, { useEffect } from "react";
+import image1 from "/src/assets/Frame 53.png";
 import image2 from "/src/assets/Frame 54.png";
-import image3 from "/src/assets/Frame 55.png"; 
-import { useNavigate } from "react-router-dom"; 
+import image3 from "/src/assets/Frame 55.png";
+import { useNavigate } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ServicesSection = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   const navigate = useNavigate();
 
   const handleViewAllClick = () => {
@@ -14,7 +20,10 @@ const ServicesSection = () => {
   return (
     <div className="text-center py-12">
       {/* Heading */}
-      <h2 className="text-4xl md:text-[46px] font-semibold text-[#393939] mb-12">
+      <h2
+        className="text-4xl md:text-[46px] font-semibold text-[#393939] mb-12"
+        data-aos="fade-down"
+      >
         Services
       </h2>
 
@@ -26,10 +35,12 @@ const ServicesSection = () => {
             src={image1}
             alt="Service 1"
             className="w-full mb-4"
+            data-aos="fade-right"
           />
           <h3 className="text-[19px] font-semibold text-[#393939]">Plywood</h3>
           <p className="text-[#9F9F9F] text-start open-sans text-base font-medium">
-            We offer high-quality plywood that stands out for its strength, durability and versatility.
+            We offer high-quality plywood that stands out for its strength,
+            durability and versatility.
           </p>
         </div>
 
@@ -39,10 +50,12 @@ const ServicesSection = () => {
             src={image2}
             alt="Service 2"
             className="w-full mb-4"
+            data-aos="fade-up"
           />
           <h3 className="text-[19px] font-semibold text-[#393939]">Mica</h3>
           <p className="text-[#9F9F9F] text-start open-sans text-base font-medium">
-            Our range of mica sheets is designed to be an ideal choice of kitchens, bathrooms and high-traffic areas.
+            Our range of mica sheets is designed to be an ideal choice of
+            kitchens, bathrooms and high-traffic areas.
           </p>
         </div>
 
@@ -52,10 +65,14 @@ const ServicesSection = () => {
             src={image3}
             alt="Service 3"
             className="w-full mb-4"
+            data-aos="fade-left"
           />
-          <h3 className="text-[19px] font-semibold text-[#393939]">Veneer Plywood</h3>
+          <h3 className="text-[19px] font-semibold text-[#393939]">
+            Veneer Plywood
+          </h3>
           <p className="text-[#9F9F9F] text-start open-sans text-base font-medium">
-           For those who seek a natural wood finish, our veneer plywood offers a perfect solution.
+            For those who seek a natural wood finish, our veneer plywood offers
+            a perfect solution.
           </p>
         </div>
       </div>

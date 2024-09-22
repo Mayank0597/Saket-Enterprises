@@ -20,7 +20,7 @@ const AboutUsPageComp4 = () => {
     <div>
       {/* Heading Section */}
       <div className="flex items-center justify-center text-center mt-16">
-        <h2 className="text-[39px] max-w-[691px] text-[#393939]">
+        <h2 className="text-[39px] max-w-[691px] text-[#393939] font-semibold">
           The Vision Behind{" "}
           <span className="text-[#E2761B]">Saket Enterprises’</span> Unique
           Creations
@@ -33,7 +33,7 @@ const AboutUsPageComp4 = () => {
           {/* Positioned Div with Grey Area and Image */}
           <div className="absolute w-[1320px] h-[455px] top-[97px] right-[55px] bottom-[98px] flex items-center justify-between">
             {/* Grey Area with Paragraph */}
-            <div className="w-full max-w-[calc(100%-408px)] h-full bg-[#FAFAFA] flex items-center px-8">
+            <div className="w-full max-w-[calc(100%-408px)] h-full bg-[#FAFAFA] flex items-center px-8 rounded-lg">
               <p className="text-xl text-[#9F9F9F] ml-20 mr-[81px] text-justify open-sans font-medium">
               Saket Tiwari is a computer science engineer with significant experience working with major multinational corporations. With a longstanding background in working with wood and timber, Saket has always aspired to innovate and move beyond traditional methods to excel in modern approaches. His dream has been to encourage people to adopt new methodologies for creating masterpieces. He has conducted extensive research, particularly in the Bastar art form and has introduced new machinery and improved craftsmanship to the market.
               <p className='mt-7'>"Design is not just what it looks like and feels like. Design is how it works."<br />
@@ -47,7 +47,7 @@ const AboutUsPageComp4 = () => {
               <img
                 src={imageSrc}
                 alt="Saket Enterprises"
-                className="w-full h-full rounded"
+                className="w-full h-full rounded-lg"
               />
             </div>
           </div>

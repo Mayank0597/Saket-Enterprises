@@ -14,11 +14,11 @@ import image11 from "/src/assets/Flush-Door-1080x600 1 (3).png";
 import image12 from "/src/assets/Frame 53 (8).png";
 import image13 from "/src/assets/Flush-Door-1080x600 1 (3).png";
 import image14 from "/src/assets/Frame 53 (8).png";
-import bgImage1 from "/src/assets/material-symbols-light_dresser-outline.png";
-import bgImage2 from "/src/assets/iconoir_sofa.png";
+import bgImage1 from "/src/assets/material-symbols-light_dresser-outline (2).png";
+import bgImage2 from "/src/assets/map_furniture-store (3).png";
 import bgImage3 from "/src/assets/Group.png";
-import bgImage4 from "/src/assets/map_furniture-store (1).png";
-import bgImage5 from "/src/assets/mynaui_lamp.png";
+import bgImage4 from "/src/assets/iconoir_sofa (3).png";
+import bgImage5 from "/src/assets/mynaui_lamp (2).png";
 
 const ServicePage = () => {
   const Section = ({ imageSrc, heading, paragraph, imageOnLeft }) => {
@@ -52,10 +52,10 @@ const ServicePage = () => {
                 </div>
                 <div class="w-full md:w-5/12">
                   <div className="flex flex-col">
-                    <h2 className="text-[46px] font-bold text-[#393939]">
+                    <h2 className="text-[46px] font-semibold text-[#393939]">
                       {heading}
                     </h2>
-                    <p className="text-lg open-sans font-medium text-[#9F9F9F] max-w-[710px]">
+                    <p className="text-base open-sans font-medium text-[#9F9F9F]">
                       {paragraph}
                     </p>
                   </div>{" "}
@@ -66,21 +66,43 @@ const ServicePage = () => {
         ) : (
           <>
             {/* Heading and Text */}
-            <div className="flex-1 lg:pl-28 lg:pt-52">
+            {/* <div className="flex-1 lg:pl-28 lg:pt-52">
               <h2 className="text-[46px] font-bold text-[#393939]">
                 {heading}
               </h2>
               <p className="text-lg open-sans font-medium text-[#9F9F9F] max-w-[710px]">
                 {paragraph}
               </p>
-            </div>
+            </div> */}
             {/* Right-aligned Grey Area with Image */}
-            <div className="relative lg:mr-0 lg:w-[390px] h-[646px] bg-[#D9D9D9]">
+            {/* <div className="relative lg:mr-0 lg:w-[390px] h-[646px] bg-[#D9D9D9]">
               <img
                 src={imageSrc}
                 alt="Service"
                 className="absolute w-full right-[119px] top-1/2 -translate-y-1/2 z-10"
               />
+            </div> */}
+
+            <div className="relative h-[646px]">
+              {/* Grey background on the right side */}
+              <div className="absolute right-0 w-[390px] h-full bg-[#D9D9D9] -z-50"></div>
+              <div className="flex justify-center items-center h-full gap-16">
+                {/* Text and heading on the left side */}
+                <div className="w-full md:w-5/12">
+                  <div className="flex flex-col">
+                    <h2 className="text-[46px] font-semibold text-[#393939]">
+                      {heading}
+                    </h2>
+                    <p className="text-base open-sans font-medium text-[#9F9F9F]">
+                      {paragraph}
+                    </p>
+                  </div>
+                </div>
+                {/* Image on the right side */}
+                <div className="w-full md:w-4/12">
+                  <img src={imageSrc} alt="Service" className="" />
+                </div>
+              </div>
             </div>
           </>
         )}
@@ -100,27 +122,27 @@ const ServicePage = () => {
       <img
         src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[160px] h-[180px]"
+        className="absolute z-0 w-[163px] h-[123px]"
         style={{ right: "50px", top: "350px" }}
       />
 
       <img
         src={bgImage4}
         alt="Background 4"
-        className="absolute z-0 w-[132px] h-[160px]"
+        className="absolute z-0 w-[155px] h-[120px]"
         style={{ right: "550px", top: "900px" }}
       />
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[150px] h-[170px]"
+        className="absolute z-0 w-[58px] h-[91px]"
         style={{ left: "30%", top: "500px" }}
       />
 
       <img
         src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[160px] h-[180px]"
+        className="absolute z-0 w-[163px] h-[123px]"
         style={{ right: "60%", top: "1200px" }}
       />
 
@@ -133,29 +155,35 @@ const ServicePage = () => {
       <img
         src={bgImage4}
         alt="Background 4"
-        className="absolute z-0 w-[132px] h-[160px]"
+        className="absolute z-0 w-[155px] h-[120px]"
         style={{ right: "650px", top: "1800px" }}
+      />
+      <img
+        src={bgImage1}
+        alt="Background 1"
+        className="absolute z-0 w-[132px] h-[159px]"
+        style={{ left: "50px", top: "2000px" }}
       />
 
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[150px] h-[170px]"
+        className="absolute z-0 w-[58px] h-[91px]"
         style={{ left: "80%", top: "2700px" }}
       />
 
       <img
         src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[160px] h-[180px]"
+        className="absolute z-0 w-[163px] h-[123px]"
         style={{ right: "1200px", top: "2400px" }}
       />
 
       <img
         src={bgImage4}
         alt="Background 4"
-        className="absolute z-0 w-[132px] h-[160px]"
-        style={{ right: "850px", top: "3000px" }}
+        className="absolute z-0 w-[155px] h-[120px]"
+        style={{ right: "650px", top: "3000px" }}
       />
       <img
         src={bgImage1}
@@ -166,7 +194,7 @@ const ServicePage = () => {
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[150px] h-[170px]"
+        className="absolute z-0 w-[58px] h-[91px]"
         style={{ left: "10%", top: "3300px" }}
       />
 
@@ -179,20 +207,20 @@ const ServicePage = () => {
       <img
         src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[160px] h-[180px]"
+        className="absolute z-0 w-[163px] h-[123px]"
         style={{ right: "60%", top: "1200px" }}
       />
       <img
         src={bgImage4}
         alt="Background 4"
-        className="absolute z-0 w-[132px] h-[160px]"
+        className="absolute z-0 w-[155px] h-[120px]"
         style={{ right: "650px", top: "1800px" }}
       />
 
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[150px] h-[170px]"
+        className="absolute z-0 w-[58px] h-[91px]"
         style={{ left: "80%", top: "2700px" }}
       />
       <img
@@ -204,27 +232,27 @@ const ServicePage = () => {
       <img
         src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[160px] h-[180px]"
+        className="absolute z-0 w-[163px] h-[123px]"
         style={{ right: "50px", top: "4000px" }}
       />
 
       <img
         src={bgImage4}
         alt="Background 4"
-        className="absolute z-0 w-[132px] h-[160px]"
+        className="absolute z-0 w-[155px] h-[120px]"
         style={{ right: "850px", top: "4400px" }}
       />
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[150px] h-[170px]"
+        className="absolute z-0 w-[58px] h-[91px]"
         style={{ left: "30%", top: "5000px" }}
       />
 
       <img
         src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[160px] h-[180px]"
+        className="absolute z-0 w-[163px] h-[123px]"
         style={{ right: "60%", top: "5700px" }}
       />
 
@@ -237,28 +265,28 @@ const ServicePage = () => {
       <img
         src={bgImage4}
         alt="Background 4"
-        className="absolute z-0 w-[132px] h-[160px]"
+        className="absolute z-0 w-[155px] h-[120px]"
         style={{ right: "600px", top: "6000px" }}
       />
 
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[150px] h-[170px]"
+        className="absolute z-0 w-[58px] h-[91px]"
         style={{ left: "20%", top: "6300px" }}
       />
 
       <img
         src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[160px] h-[180px]"
+        className="absolute z-0 w-[163px] h-[123px]"
         style={{ right: "100px", top: "6500px" }}
       />
 
       <img
         src={bgImage4}
         alt="Background 4"
-        className="absolute z-0 w-[132px] h-[160px]"
+        className="absolute z-0 w-[155px] h-[120px]"
         style={{ right: "850px", top: "6900px" }}
       />
       <img
@@ -270,7 +298,7 @@ const ServicePage = () => {
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[150px] h-[170px]"
+        className="absolute z-0 w-[58px] h-[91px]"
         style={{ left: "10%", top: "7600px" }}
       />
 
@@ -283,20 +311,20 @@ const ServicePage = () => {
       <img
         src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[160px] h-[180px]"
+        className="absolute z-0 w-[163px] h-[123px]"
         style={{ right: "60%", top: "8000px" }}
       />
       <img
         src={bgImage4}
         alt="Background 4"
-        className="absolute z-0 w-[132px] h-[160px]"
+        className="absolute z-0 w-[155px] h-[120px]"
         style={{ right: "1200px", top: "8400px" }}
       />
 
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[150px] h-[170px]"
+        className="absolute z-0 w-[58px] h-[91px]"
         style={{ left: "40%", top: "8800px" }}
       />
       {/* First Section: Image and Grey Area on the Left */}
