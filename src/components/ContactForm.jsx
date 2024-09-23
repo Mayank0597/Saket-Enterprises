@@ -139,7 +139,7 @@ const ContactForm = () => {
             <img
               src={logoIcon3}
               alt="Email Icon"
-              className="w-[30px] h-[25px] mr-5"
+              className="w-[27px] h-[22px] mr-5"
             />
             <div className="flex flex-col items-start">
               <h3 className="text-3xl font-semibold text-[#E2761B]">Email</h3>
@@ -160,31 +160,31 @@ const ContactForm = () => {
         <input
           type="text"
           placeholder="Name"
-          className="w-full h-[45px] px-4 border border-gray-300 bg-[#F3F2F2] focus:outline-none mb-4 rounded-lg"
+          className="w-full h-[45px] px-4 border border-gray-300 bg-[#F3F2F2] focus:border-[#E2761B] focus:outline-none mb-4 rounded-lg"
         />
 
         {/* Phone Number Input */}
         <input
           type="text"
           placeholder="Phone Number"
-          className="w-full h-[45px] px-4 border border-gray-300 bg-[#F3F2F2] focus:outline-none mb-4 rounded-lg"
+          className="w-full h-[45px] px-4 border border-gray-300 bg-[#F3F2F2] focus:outline-none mb-4 rounded-lg focus:border-[#E2761B]"
         />
 
         {/* Email Input */}
         <input
           type="email"
           placeholder="Email"
-          className="w-full h-[45px] px-4 border border-gray-300 bg-[#F3F2F2] focus:outline-none mb-4 rounded-lg"
+          className="w-full h-[45px] px-4 border border-gray-300 bg-[#F3F2F2] focus:outline-none mb-4 rounded-lg focus:border-[#E2761B]"
         />
 
         {/* Message Textarea */}
         <textarea
           placeholder="Write a message"
-          className="w-full h-[195px] px-4 py-2 border focus:outline-none resize-none mb-4 bg-[#F3F2F2] rounded-lg border-gray-300"
+          className="w-full h-[195px] px-4 py-2 border focus:outline-none resize-none mb-4 bg-[#F3F2F2] rounded-lg border-gray-300 focus:border-[#E2761B]"
         />
 
         {/* Submit Button */}
-        <button className="w-full h-[45px] bg-[#E2761B] text-white font-semibold rounded">
+        <button className="w-full h-[45px] bg-[#E2761B] text-white font-semibold rounded border border-transparent hover:bg-white hover:text-black hover:border-[#E2761B] transition-all duration-300">
           Submit
         </button>
       </div>

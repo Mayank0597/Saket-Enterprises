@@ -1,21 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import FbImage from "/src/assets/Frame 27.png";
 import instaImage from "/src/assets/Frame 28.png";
 import CompanyLogo from "/src/assets/Frame 3 (2).png";
 
-
 const Footer = () => {
-  
   return (
     <footer className="bg-[#1C1C1C] text-white pt-[100px] pb-8 px-4">
       {/* Contact Section */}
       <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 md:px-16">
         <h2 className="text-xl md:text-3xl font-semibold text-[#FFF]">
-          Want to customize your product?<br />
-          <span className=" text-[#E2761B]">
-            Contact us Now!
-          </span>
+          Want to customize your product?
+          <br />
+          <span className=" text-[#E2761B]">Contact us Now!</span>
         </h2>
 
         {/* Contact form */}
@@ -23,7 +20,7 @@ const Footer = () => {
           <input
             type="text"
             placeholder="Email or Phone no."
-            className="text-[#9A9A9A] bg-[#5c5c5c] p-2 rounded-[4px] focus:outline-none w-[338px]"
+            className="text-[#9A9A9A] bg-[#5c5c5c] p-2 rounded focus:outline-none w-[338px]"
           />
           <button className="bg-[#E2761B] text-white px-4 py-2 rounded-[4px] w-[154px]">
             Submit
@@ -39,7 +36,7 @@ const Footer = () => {
         {/* Logo and text */}
         <div className="flex flex-col items-start md:w-[425px]">
           <img src={CompanyLogo} alt="Company Logo" className="w-52 mb-2" />
-          <p className="text-[#9A9A9A] open-sans font-normal text-base max-w-[425px]">
+          <p className="text-[#9A9A9A] open-sans font-normal text-base max-w-[425px] text-justify">
             Saket Enterprises is a pioneering company based in Abhanpur, Raipur,
             Chhattisgarh. It specializes in high-quality Plywood, Hardware,
             Household Furniture, Bastar Art, Artifacts and Wood. Under the
@@ -50,7 +47,9 @@ const Footer = () => {
 
         {/* Social Media */}
         <div className="flex flex-col items-start">
-          <h3 className="text-[#E2761B] text-[19px] font-semibold">Follow us on:</h3>
+          <h3 className="text-[#E2761B] text-[19px] font-semibold">
+            Follow us on:
+          </h3>
           <div className="flex space-x-4 mt-2">
             <a
               href="https://facebook.com"
@@ -71,33 +70,69 @@ const Footer = () => {
 
         {/* Navigation Links */}
         <div className="flex flex-col items-start">
-          <h3 className="text-[#E2761B] text-[19px] font-semibold">Quick Links</h3>
+          <h3 className="text-[#E2761B] text-[19px] font-semibold">
+            Quick Links
+          </h3>
           <ul className="mt-2 space-y-2">
             <li>
-              <Link to="/" className="text-[#9A9A9A] open-sans text-[16px] font-medium">
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#E2761B] open-sans text-[16px] font-medium"
+                    : "text-[#9A9A9A] open-sans text-[16px] font-medium"
+                }
+              >
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link
+              <NavLink
                 to="/services"
-                className="text-[#9A9A9A] open-sans text-[16px] font-medium"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#E2761B] open-sans text-[16px] font-medium"
+                    : "text-[#9A9A9A] open-sans text-[16px] font-medium"
+                }
               >
                 Services
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/about" className="text-[#9A9A9A] open-sans text-[16px] font-medium">
+              <NavLink
+                to="/projects"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#E2761B] open-sans text-[16px] font-medium"
+                    : "text-[#9A9A9A] open-sans text-[16px] font-medium"
+                }
+              >
+                Projects
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#E2761B] open-sans text-[16px] font-medium"
+                    : "text-[#9A9A9A] open-sans text-[16px] font-medium"
+                }
+              >
                 About Us
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link
+              <NavLink
                 to="/contact"
-                className="text-[#9A9A9A] open-sans text-[16px] font-medium"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#E2761B] open-sans text-[16px] font-medium"
+                    : "text-[#9A9A9A] open-sans text-[16px] font-medium"
+                }
               >
                 Contact Us
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -107,9 +142,7 @@ const Footer = () => {
       <div className="mt-8 text-center">
         <p className="text-[#9A9A9A] text-base font-medium">
           &copy; All Rights Reserved by{" "}
-          <span className="text-[#E2761B]">
-            Saket Enterprises
-          </span>
+          <span className="text-[#E2761B]">Saket Enterprises</span>
         </p>
       </div>
     </footer>
