@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import bgImage from "/src/assets/Frame 6.png";
-import rightImage from "/src/assets/Group 3.png";
+import bgImage from "/src/assets/Optimize Image/Frame6-ezgif.com-optiwebp.webp";
+import rightImage from "/src/assets/Optimize Image/Group3-ezgif.com-optiwebp.webp";
 import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";

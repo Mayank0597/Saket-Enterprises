@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import sampleImage from "/src/assets/Frame 1859.png";
+import sampleImage from "/src/assets/Optimize Image/Frame1859-ezgif.com-optiwebp.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

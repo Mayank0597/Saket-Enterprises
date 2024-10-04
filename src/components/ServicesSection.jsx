@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import image1 from "/src/assets/Frame 53.png";
-import image2 from "/src/assets/Frame 54.png";
-import image3 from "/src/assets/Frame 55.png";
+import image1 from "/src/assets/Optimize Image/Frame53-ezgif.com-png-to-webp-converter.webp";
+import image2 from "/src/assets/Optimize Image/Frame54-ezgif.com-optiwebp.webp";
+import image3 from "/src/assets/Optimize Image/Frame55-ezgif.com-png-to-webp-converter.webp";
 import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
