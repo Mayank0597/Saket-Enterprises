@@ -43,7 +43,7 @@
 
 import React, { useEffect } from "react";
 import { Parallax } from "react-parallax"; // Import Parallax
-import backgroundImage from "/src/assets/Brochure.png";
+import backgroundImage from "/src/assets/Optimize Image/Brochure1-ezgif.com-png-to-webp-converter.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

@@ -1,7 +1,7 @@
 import React from "react";
-import image1 from "/src/assets/close-up-details-wood-surface 1.png";
-import image2 from "/src/assets/close-up-details-wood-surface 1 (1).png";
-import image3 from "/src/assets/close-up-details-wood-surface 1 (2).png";
+import image1 from "/src/assets/Optimize Image/close-up-details-wood-surface15-ezgif.com-optiwebp.webp";
+import image2 from "/src/assets/Optimize Image/close-up-details-wood-surface16-ezgif.com-optiwebp.webp";
+import image3 from "/src/assets/Optimize Image/close-up-details-wood-surface17-ezgif.com-optiwebp.webp";
 
 const AboutUsPageComp2 = () => {
   const AboutUsSection = ({ imageSrc, heading, paragraph, imageOnLeft }) => {

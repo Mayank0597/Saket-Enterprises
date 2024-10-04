@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import ProjectsHero from "../components/ProjectsHero";
+import ClientProjectComponent from "../components/ClientProjectComponent";
 
 const Projects = () => {
   return (
-    <div>
-      Projects
-    </div>
-  )
-}
+    <>
+      <ProjectsHero />
+      <ClientProjectComponent />
+    </>
+  );
+};
 
-export default Projects
+export default Projects;

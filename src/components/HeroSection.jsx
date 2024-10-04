@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import bgImage from "/src/assets/Optimize Image/Frame6-ezgif.com-optiwebp.webp";
-import rightImage from "/src/assets/Optimize Image/Group3-ezgif.com-optiwebp.webp";
+import bgImage from "/src/assets/Optimize Image/Frame61-ezgif.com-optiwebp.webp";
+import rightImage from "/src/assets/Optimize Image/Group31-ezgif.com-optiwebp.webp";
 import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -17,7 +17,7 @@ const HeroSection = () => {
     <section className="relative w-full h-screen">
       {/* Background Image */}
       <div
-        className="absolute inset-0 bg-cover bg-center z-0"
+        className="absolute inset-0 bg-cover z-0"
         style={{ backgroundImage: `url(${bgImage})` }}
       ></div>
 
@@ -49,7 +49,7 @@ const HeroSection = () => {
             data-aos="fade-up-left"
             src={rightImage}
             alt="Decorative Furniture"
-            className="w-80 h-auto md:w-96 md:h-auto"
+            className="w-80 h-auto md:w-[461px] md:h-auto"
           />
         </div>
       </div>

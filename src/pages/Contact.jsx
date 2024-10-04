@@ -9,6 +9,7 @@ const Contact = () => {
       <ContactUsPageComp1 />
       <ContactForm />
       <LocationComponent />
+      <LocationComponent />
     </>
   );
 };

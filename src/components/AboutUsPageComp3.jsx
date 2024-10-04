@@ -53,7 +53,7 @@
 // export default AboutUsPageComp3;
 
 import React from "react";
-import backgroundImage from "/src/assets/Frame 1863 (1).png";
+import backgroundImage from "/src/assets/Optimize Image/Frame18632-ezgif.com-png-to-webp-converter.webp";
 import { Parallax } from "react-parallax";
 
 const AboutUsPageComp3 = () => {

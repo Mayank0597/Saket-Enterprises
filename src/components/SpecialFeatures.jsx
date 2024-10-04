@@ -122,7 +122,7 @@ import icon2 from "/src/assets/Frame 36 (1).png";
 import icon3 from "/src/assets/Frame 1931.png";
 import icon4 from "/src/assets/Frame 36.png";
 import icon5 from "/src/assets/Frame 40.png";
-import backgroundImage from "/src/assets/Optimize Image/Frame42-ezgif.com-optiwebp.webp";
+import backgroundImage from "/src/assets/Optimize Image/Frame422-ezgif.com-optiwebp.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

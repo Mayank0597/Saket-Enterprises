@@ -89,7 +89,7 @@ import React from "react";
 import logoIcon1 from "/src/assets/ion_location-outline (1).png";
 import logoIcon2 from "/src/assets/fluent_call-48-regular.png";
 import logoIcon3 from "/src/assets/fluent_call-48-regular (1).png";
-import bgImage from "/src/assets/Frame 1890.png";
+import bgImage from "/src/assets/Optimize Image/Frame18901-ezgif.com-png-to-webp-converter.webp";
 
 const ContactForm = () => {
   return (

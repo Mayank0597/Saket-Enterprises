@@ -1,5 +1,5 @@
 import React from 'react'
-import image from "/src/assets/Frame 74 (2).png"
+import image from "/src/assets/Optimize Image/Frame743-ezgif.com-optiwebp.webp"
 
 const ServicesPageComp1 = () => {
   return (

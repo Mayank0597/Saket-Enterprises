@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import circularImage from "/src/assets/Optimize Image/Ellipse1-ezgif.com-png-to-webp-converter.webp";
+import circularImage from "/src/assets/Optimize Image/Ellipse11-ezgif.com-optiwebp.webp";
 import icon1 from "/src/assets/Frame 18.png";
 import icon2 from "/src/assets/Frame 16.png";
 import icon3 from "/src/assets/Frame 11.png";
