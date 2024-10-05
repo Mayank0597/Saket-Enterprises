@@ -6,6 +6,7 @@ import InspirationSection from "../components/InspirationSection";
 import SpecialFeatures from "../components/SpecialFeatures";
 import WhyChooseUs from "../components/WhyChooseUs";
 import OurPartners from "../components/OurPartners";
+import BrochureCard from "../components/BrochureCard";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
       <WhyChooseUs />
       <SpecialFeatures />
       <OurPartners />
+      <BrochureCard />
     </>
   );
 };

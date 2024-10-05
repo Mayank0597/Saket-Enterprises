@@ -77,11 +77,12 @@ const Footer = () => {
             <li>
               <NavLink
                 to="/"
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-[#E2761B] open-sans text-[16px] font-medium"
-                    : "text-[#9A9A9A] open-sans text-[16px] font-medium"
-                }
+                // className={({ isActive }) =>
+                //   isActive
+                //     ? "text-[#E2761B] open-sans text-[16px] font-medium"
+                //     : "text-[#9A9A9A] open-sans text-[16px] font-medium"
+                // }
+                className="text-[#9A9A9A] open-sans text-[16px] font-medium hover:text-[#E2761B]"
               >
                 Home
               </NavLink>
@@ -89,11 +90,12 @@ const Footer = () => {
             <li>
               <NavLink
                 to="/services"
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-[#E2761B] open-sans text-[16px] font-medium"
-                    : "text-[#9A9A9A] open-sans text-[16px] font-medium"
-                }
+                // className={({ isActive }) =>
+                //   isActive
+                //     ? "text-[#E2761B] open-sans text-[16px] font-medium"
+                //     : "text-[#9A9A9A] open-sans text-[16px] font-medium"
+                // }
+                className="text-[#9A9A9A] open-sans text-[16px] font-medium hover:text-[#E2761B]"
               >
                 Services
               </NavLink>
@@ -101,11 +103,12 @@ const Footer = () => {
             <li>
               <NavLink
                 to="/projects"
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-[#E2761B] open-sans text-[16px] font-medium"
-                    : "text-[#9A9A9A] open-sans text-[16px] font-medium"
-                }
+                // className={({ isActive }) =>
+                //   isActive
+                //     ? "text-[#E2761B] open-sans text-[16px] font-medium"
+                //     : "text-[#9A9A9A] open-sans text-[16px] font-medium"
+                // }
+                className="text-[#9A9A9A] open-sans text-[16px] font-medium hover:text-[#E2761B]"
               >
                 Projects
               </NavLink>
@@ -113,11 +116,12 @@ const Footer = () => {
             <li>
               <NavLink
                 to="/about"
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-[#E2761B] open-sans text-[16px] font-medium"
-                    : "text-[#9A9A9A] open-sans text-[16px] font-medium"
-                }
+                // className={({ isActive }) =>
+                //   isActive
+                //     ? "text-[#E2761B] open-sans text-[16px] font-medium"
+                //     : "text-[#9A9A9A] open-sans text-[16px] font-medium"
+                // }
+                className="text-[#9A9A9A] open-sans text-[16px] font-medium hover:text-[#E2761B]"
               >
                 About Us
               </NavLink>
@@ -125,13 +129,22 @@ const Footer = () => {
             <li>
               <NavLink
                 to="/contact"
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-[#E2761B] open-sans text-[16px] font-medium"
-                    : "text-[#9A9A9A] open-sans text-[16px] font-medium"
-                }
+                // className={({ isActive }) =>
+                //   isActive
+                //     ? "text-[#E2761B] open-sans text-[16px] font-medium"
+                //     : "text-[#9A9A9A] open-sans text-[16px] font-medium"
+                // }
+                className="text-[#9A9A9A] open-sans text-[16px] font-medium hover:text-[#E2761B]"
               >
                 Contact Us
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/terms"
+                className="text-[#9A9A9A] open-sans text-[16px] font-medium hover:text-[#E2761B]"
+              >
+                Terms and Condition
               </NavLink>
             </li>
           </ul>

@@ -54,11 +54,11 @@ const BrochureCard = () => {
   return (
     <Parallax
       bgImage={backgroundImage}
-      strength={300} // Control parallax intensity
-      bgImageStyle={{
-        minHeight: "130%", // Ensure background covers the entire height
-        minWidth: "100%", // Ensure background covers the width
-      }}
+      strength={50} // Control parallax intensity
+      // bgImageStyle={{
+      //   minHeight: "130%", 
+      //   minWidth: "100%", 
+      // }}
       className="w-full h-[470px]"
     >
       <div className="relative">

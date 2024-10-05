@@ -12,11 +12,11 @@ const ProjectsHero = () => {
       />
 
       {/* Centered heading */}
-      {/* <div className="absolute inset-0 flex items-center justify-center">
+      <div className="absolute inset-0 flex items-center justify-center">
         <h1 className="text-4xl lg:text-6xl font-semibold text-white">
-          Contact Us
+          Projects
         </h1>
-      </div> */}
+      </div>
     </div>
   );
 };

@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import "./assets/css/fonts.css";
 import Projects from "./pages/Projects";
 import ScrollToTop from "./components/ScrollToTop";
+import TermsAndCondition from "./pages/TermsAndCondition";
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/terms" element={<TermsAndCondition />} />
       </Routes>
-      <BrochureCard />
+      {/* <BrochureCard /> */}
       <Footer />
     </>
   );

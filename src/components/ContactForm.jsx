@@ -107,47 +107,65 @@ const ContactForm = () => {
 
         {/* Contact Information on Image */}
         <div className="absolute top-1/4 left-1/4 transform translate-y-1/5 -translate-x-1/5 origin-center justify-center items-center text-white max-w-[407px] w-full">
-          <div className='flex flex-col items-start gap-[61px]'>
-          {/* Section 1: Address */}
-          <div className="flex flex-row justify-center items-center">
-            <img
-              src={logoIcon1}
-              alt="Address Icon"
-              className="w-[20px] h-[30px] mr-5"
-            />
-            <div className="flex flex-col items-start">
-              <h3 className="text-3xl font-semibold text-[#E2761B]">Address</h3>
-              <p className="text-lg font-medium text-[#E3E3E3]">Dhamtari Road, Abhanpur, Chhattisgarh</p>
+          <div className="flex flex-col items-start gap-[61px]">
+            {/* Section 1: Address */}
+            <div className="flex flex-row justify-center items-start">
+              <img
+                src={logoIcon1}
+                alt="Address Icon"
+                className="w-[20px] h-[30px] mr-5"
+              />
+              <div className="flex flex-col items-start">
+                <h3 className="text-3xl font-semibold text-[#E2761B]">
+                  Address
+                </h3>
+                <div className="flex flex-col justify-center">
+                  <p className="text-lg font-medium text-[#E3E3E3]">
+                    Dhamtari Road, Abhanpur, Chhattisgarh
+                  </p>
+                  {/* <p className="text-lg font-medium text-[#E3E3E3] flex justify-center">
+                    Or
+                  </p> */}
+                  <br />
+                  <p className="text-lg font-medium text-[#E3E3E3]">
+                    CGHB Building, Sector 27, Nawagaon Parsatti, Atal Nagar, New
+                    Raipur, Raipur(C.G)
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
 
-          {/* Section 2: Phone */}
-          <div className="flex flex-row items-center justify-center">
-            <img
-              src={logoIcon2}
-              alt="Phone Icon"
-              className="w-[23px] h-[30px] mr-5"
-            />
-            <div className="flex flex-col items-start">
-              <h3 className="text-3xl font-semibold text-[#E2761B]">Phone</h3>
-              <p className="text-lg font-medium text-[#E3E3E3]">+91 97523-24111</p>
+            {/* Section 2: Phone */}
+            <div className="flex flex-row items-start justify-center">
+              <img
+                src={logoIcon2}
+                alt="Phone Icon"
+                className="w-[23px] h-[30px] mr-5"
+              />
+              <div className="flex flex-col items-start">
+                <h3 className="text-3xl font-semibold text-[#E2761B]">Phone</h3>
+                <p className="text-lg font-medium text-[#E3E3E3]">
+                  +91 97523-24111
+                </p>
+              </div>
             </div>
-          </div>
 
-          {/* Section 3: Email */}
-          <div className="flex flex-row items-center justify-center">
-            <img
-              src={logoIcon3}
-              alt="Email Icon"
-              className="w-[27px] h-[22px] mr-5"
-            />
-            <div className="flex flex-col items-start">
-              <h3 className="text-3xl font-semibold text-[#E2761B]">Email</h3>
-              <p className="text-lg font-medium text-[#E3E3E3]">hello@houseofbastar.com</p>
+            {/* Section 3: Email */}
+            <div className="flex flex-row items-start justify-center">
+              <img
+                src={logoIcon3}
+                alt="Email Icon"
+                className="w-[27px] h-[22px] mr-5"
+              />
+              <div className="flex flex-col items-start">
+                <h3 className="text-3xl font-semibold text-[#E2761B]">Email</h3>
+                <p className="text-lg font-medium text-[#E3E3E3]">
+                  Saketplywood@gmail.com
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </div>
 
       {/* Contact Form */}
@@ -160,7 +178,7 @@ const ContactForm = () => {
         <input
           type="text"
           placeholder="Name"
-          className="w-full h-[45px] px-4 border border-gray-300 bg-[#F3F2F2] focus:border-[#E2761B] focus:outline-none mb-4 rounded-lg"
+          className="w-full h-[45px] px-4 border-[1.5px] border-gray-300 bg-[#F3F2F2] focus:border-[#E2761B] focus:outline-none mb-4 rounded-lg"
         />
 
         {/* Phone Number Input */}
@@ -174,17 +192,17 @@ const ContactForm = () => {
         <input
           type="email"
           placeholder="Email"
-          className="w-full h-[45px] px-4 border border-gray-300 bg-[#F3F2F2] focus:outline-none mb-4 rounded-lg focus:border-[#E2761B]"
+          className="w-full h-[45px] px-4 border-[1.5px] border-gray-300 bg-[#F3F2F2] focus:outline-none mb-4 rounded-lg focus:border-[#E2761B]"
         />
 
         {/* Message Textarea */}
         <textarea
           placeholder="Write a message"
-          className="w-full h-[195px] px-4 py-2 border focus:outline-none resize-none mb-4 bg-[#F3F2F2] rounded-lg border-gray-300 focus:border-[#E2761B]"
+          className="w-full h-[195px] px-4 py-2 border-[1.5px] focus:outline-none resize-none mb-4 bg-[#F3F2F2] rounded-lg border-gray-300 focus:border-[#E2761B]"
         />
 
         {/* Submit Button */}
-        <button className="w-full h-[45px] bg-[#E2761B] text-white font-semibold rounded border border-transparent hover:bg-white hover:text-black hover:border-[#E2761B] transition-all duration-300">
+        <button className="w-full h-[45px] bg-[#E2761B] text-white font-semibold rounded border-[1.5px] border-transparent hover:bg-white hover:text-black hover:border-[#E2761B] transition-all duration-300">
           Submit
         </button>
       </div>

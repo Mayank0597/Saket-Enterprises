@@ -15,7 +15,7 @@ const InspirationSection = () => {
         data-aos="fade-right"
       >
         <h2 className="text-[#393939] text-3xl md:text-[46px] font-semibold leading-[50px] mb-4">
-          Inspiration from the Artifacts we love
+          Inspiration from the Artefacts we love
         </h2>
         <p className="text-lg md:text-2xl open-sans text-[#808080] mb-9 font-medium">
           Visit our Website!
