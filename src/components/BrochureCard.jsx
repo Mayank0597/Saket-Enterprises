@@ -1,5 +1,5 @@
 // import React from "react";
-// import backgroundImage from "/src/assets/Brochure.png";
+// import backgroundImage from "/src/assets/Optimize Image/Brochure1-ezgif.com-png-to-webp-converter.webp";
 
 // const BrochureCard = () => {
 //   return (
@@ -41,60 +41,103 @@
 
 // export default BrochureCard;
 
-import React, { useEffect } from "react";
-import { Parallax } from "react-parallax"; // Import Parallax
+import React from "react";
 import backgroundImage from "/src/assets/Optimize Image/Brochure1-ezgif.com-png-to-webp-converter.webp";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const BrochureCard = () => {
-  useEffect(() => {
-    AOS.init({ duration: 2000 });
-  }, []);
   return (
-    <Parallax
-      bgImage={backgroundImage}
-      strength={50} // Control parallax intensity
-      // bgImageStyle={{
-      //   minHeight: "130%", 
-      //   minWidth: "100%", 
-      // }}
-      className="w-full h-[470px]"
+    <div
+      className="relative w-full h-[470px] lg:h-[500px] bg-cover bg-center"
+      style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-      <div className="relative">
-        {/* Card */}
-        <div
-          data-aos="flip-right"
-          className="absolute"
-          style={{
-            left: "149px",
-            right: "842px",
-            top: "72.5px",
-            bottom: "72.5px",
-          }}
-        >
-          <div className="bg-white/80 pt-[57.5px] pr-[53px] pb-[58.5px] pl-[54px] rounded-lg shadow-lg">
-            <div className="max-w-[342px]">
-              {/* Heading */}
-              <h2 className="text-2xl text-[#393939] md:text-[37px] font-bold leading-10">
-                Download Our <span className="text-[#E2761B]">Brochure</span>
-              </h2>
-              {/* Lorem Text */}
-              <p className="mt-2 text-[#4B4B4B] open-sans text-base font-medium leading-6">
-                Get detailed insights into our products, designs and special
-                features.
-              </p>
-            </div>
+      {/* Card */}
+      <div
+        className="absolute bg-white/80 p-6 md:p-10 lg:p-14 rounded-md shadow-lg"
+        style={{
+          top: "10%",
+          left: "5%",
+          right: "5%",
+          maxWidth: "450px",
+          height: "auto",
+        }}
+      >
+        {/* Heading */}
+        <h2 className="text-xl md:text-2xl lg:text-3xl font-bold">
+          <span className="text-[#393939]">Download Our </span>
+          <span className="text-[#E2761B]">Brochure</span>
+        </h2>
 
-            {/* Download Button */}
-            <button className="mt-[30px] bg-[#E2761B] text-white py-2 px-6 rounded btn-animation ">
-              Download
-            </button>
-          </div>
-        </div>
+        {/* Lorem Text */}
+        <p className="mt-4 text-sm md:text-base lg:text-lg text-[#4B4B4B]">
+          Get detailed insights into our products, designs, and special features.
+        </p>
+
+        {/* Download Button */}
+        <button className="mt-6 bg-[#E2761B] text-white py-2 px-4 md:px-6 lg:px-8 rounded btn-animation">
+          Download
+        </button>
       </div>
-    </Parallax>
+    </div>
   );
 };
 
 export default BrochureCard;
+
+
+// import React, { useEffect } from "react";
+// import { Parallax } from "react-parallax"; // Import Parallax
+// import backgroundImage from "/src/assets/Optimize Image/Brochure1-ezgif.com-png-to-webp-converter.webp";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+
+// const BrochureCard = () => {
+//   useEffect(() => {
+//     AOS.init({ duration: 2000 });
+//   }, []);
+//   return (
+//     <Parallax
+//       bgImage={backgroundImage}
+//       strength={50} // Control parallax intensity
+//       // bgImageStyle={{
+//       //   minHeight: "130%", 
+//       //   minWidth: "100%", 
+//       // }}
+//       className="w-full h-[470px]"
+//     >
+//       <div className="relative">
+//         {/* Card */}
+//         <div
+//           data-aos="flip-right"
+//           className="absolute"
+//           style={{
+//             left: "149px",
+//             right: "842px",
+//             top: "72.5px",
+//             bottom: "72.5px",
+//           }}
+//         >
+//           <div className="bg-white/80 pt-[57.5px] pr-[53px] pb-[58.5px] pl-[54px] rounded-lg shadow-lg">
+//             <div className="max-w-[342px]">
+//               {/* Heading */}
+//               <h2 className="text-2xl text-[#393939] md:text-[37px] font-bold leading-10">
+//                 Download Our <span className="text-[#E2761B]">Brochure</span>
+//               </h2>
+//               {/* Lorem Text */}
+//               <p className="mt-2 text-[#4B4B4B] open-sans text-base font-medium leading-6">
+//                 Get detailed insights into our products, designs and special
+//                 features.
+//               </p>
+//             </div>
+
+//             {/* Download Button */}
+//             <button className="mt-[30px] bg-[#E2761B] text-white py-2 px-6 rounded btn-animation ">
+//               Download
+//             </button>
+//           </div>
+//         </div>
+//       </div>
+//     </Parallax>
+//   );
+// };
+
+// export default BrochureCard;

@@ -10,8 +10,10 @@ const Contact = () => {
     <>
       <ContactUsPageComp1 />
       <ContactForm />
-      <LocationComponent />
-      <LocationComponent1 />
+      <div className="flex flex-col lg:flex-row justify-between items-center mt-10 mb-10 px-8 space-x-6">
+        <LocationComponent />
+        <LocationComponent1 />
+      </div>
       <BrochureCard />
     </>
   );

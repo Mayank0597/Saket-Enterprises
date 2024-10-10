@@ -102,7 +102,7 @@
 
 import React, { useEffect } from "react";
 import rectangleImage from "/src/assets/Frame 23.png";
-import overlappingImage from "/src/assets/Optimize Image/Frame731-ezgif.com-optiwebp.webp";
+import overlappingImage from "/src/assets/Optimize Image/Frame732-ezgif.com-optiwebp.webp";
 import topRightImage from "/src/assets/quarter circle4.png";
 import logo1 from "/src/assets/bi_people.png";
 import logo2 from "/src/assets/achievement_9375493 2.png";

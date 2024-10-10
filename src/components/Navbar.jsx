@@ -119,14 +119,14 @@ const Navbar = () => {
             Services
           </NavLink>
 
-          <NavLink
+          {/* <NavLink
             to="/projects"
             className={({ isActive }) =>
               isActive ? "text-[#E2761B]" : "text-black"
             }
           >
             Projects
-          </NavLink>
+          </NavLink> */}
 
           <NavLink
             to="/about"
