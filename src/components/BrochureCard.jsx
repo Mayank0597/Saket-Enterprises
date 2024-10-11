@@ -47,12 +47,12 @@ import backgroundImage from "/src/assets/Optimize Image/Brochure1-ezgif.com-png-
 const BrochureCard = () => {
   return (
     <div
-      className="relative w-full h-[470px] lg:h-[500px] bg-cover bg-center"
+      className="relative w-full h-[470px] bg-cover bg-center"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       {/* Card */}
       <div
-        className="absolute bg-white/80 p-6 md:p-10 lg:p-14 rounded-md shadow-lg"
+        className="absolute bg-white/80 p-8 md:p-10 lg:p-14 rounded-md shadow-lg"
         style={{
           top: "10%",
           left: "5%",
@@ -62,13 +62,13 @@ const BrochureCard = () => {
         }}
       >
         {/* Heading */}
-        <h2 className="text-xl md:text-2xl lg:text-3xl font-bold">
+        <h2 className="text-[33px] md:text-[37px] leading-10 font-bold">
           <span className="text-[#393939]">Download Our </span>
           <span className="text-[#E2761B]">Brochure</span>
         </h2>
 
         {/* Lorem Text */}
-        <p className="mt-4 text-sm md:text-base lg:text-lg text-[#4B4B4B]">
+        <p className="mt-4 text-sm md:text-base font-medium text-[#4B4B4B]">
           Get detailed insights into our products, designs, and special features.
         </p>
 

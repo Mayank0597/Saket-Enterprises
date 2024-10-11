@@ -17,7 +17,7 @@ const OurPartners = () => {
   return (
     <div className="py-[68px] px-4 md:px-8 lg:px-16 xl:px-24">
       {/* Heading */}
-      <h2 className="text-2xl sm:text-3xl md:text-[46px] font-semibold text-center mb-[50px] text-[#393939]">
+      <h2 className="text-[33px] md:text-[46px] font-semibold text-center mb-[50px] text-[#393939]">
         Our <span className="text-[#E2761B]">Partners</span>
       </h2>
       {/* Logos */}

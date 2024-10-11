@@ -1,12 +1,13 @@
-import React from 'react'
-import image from "/src/assets/Optimize Image/Frame743-ezgif.com-optiwebp.webp"
+import React from "react";
+import image from "/src/assets/Optimize Image/Frame746-ezgif.com-optiwebp.webp";
+import mobileimage from "/src/assets/Optimize Image/Frame747-ezgif.com-png-to-webp-converter.webp";
 
 const ServicesPageComp1 = () => {
   return (
-    <div className="relative w-full h-[445px]">
+    <div className="relative w-full h-auto">
       {/* Full-width image */}
       <img
-        src={image}
+        src={window.innerWidth < 768 ? mobileimage : image}
         alt="Background"
         className="w-full h-full object-cover"
       />
@@ -19,6 +20,6 @@ const ServicesPageComp1 = () => {
       </div>
     </div>
   );
-}
+};
 
-export default ServicesPageComp1
+export default ServicesPageComp1;

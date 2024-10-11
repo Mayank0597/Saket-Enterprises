@@ -103,6 +103,7 @@
 import React, { useEffect } from "react";
 import rectangleImage from "/src/assets/Frame 23.png";
 import overlappingImage from "/src/assets/Optimize Image/Frame732-ezgif.com-optiwebp.webp";
+import overlappingMobileImage from "/src/assets/Optimize Image/Frame734-ezgif.com-png-to-webp-converter.webp";
 import topRightImage from "/src/assets/quarter circle4.png";
 import logo1 from "/src/assets/bi_people.png";
 import logo2 from "/src/assets/achievement_9375493 2.png";
@@ -117,7 +118,7 @@ const AboutSection = () => {
   return (
     <div className="relative w-full flex flex-col md:flex-row items-start">
       {/* Top-right Image */}
-      <div className="absolute top-0 right-0 z-0">
+      <div className="absolute top-0 right-0 z-0 md:block hidden">
         <img
           src={topRightImage}
           alt="Top Right Image"
@@ -126,36 +127,39 @@ const AboutSection = () => {
       </div>
       <div className="flex flex-wrap">
         {/* Left-side images */}
-        <div className="relative flex-shrink-0" data-aos="fade-right">
+        <div className="relative" data-aos="fade-right">
           {/* Grey Rectangle Image */}
 
           <img
             src={rectangleImage}
             alt="Rectangle"
-            className="w-[358px] h-auto"
+            className="md:w-[358px] w-1/2 h-auto"
           />
 
           {/* Overlapping Image */}
           <img
-            src={overlappingImage}
+            src={
+              window.innerWidth < 768
+                ? overlappingMobileImage
+                : overlappingImage
+            }
             alt="Overlapping Image"
-            className="absolute left-[152px] top-[128px] w-[390px] h-[544px] z-10"
+            className="absolute md:left-[152px] left-1/2 top-1/2 transform -translate-y-1/2 md:-translate-y-0 md:-translate-x-0 -translate-x-1/2 md:top-[128px] md:w-[390px] w-2/3 h-auto md:h-[499px] z-10"
           />
         </div>
 
         {/* Right-side Content */}
         <div
-          className="flex flex-col justify-center space-y-8 md:pl-64 text-justify"
+          className="flex flex-col justify-center md:space-y-8 md:pl-64 text-justify md:px-0 px-[30px]"
           data-aos="fade-left"
         >
           {/* Heading */}
-          <h2 className="text-4xl md:text-[46px] font-semibold">
-            <span className="text-[#393939]">About Us </span>
-            {/* <span className="text-[#E2761B]">Us</span> */}
+          <h2 className="text-[33px] md:text-[46px] font-semibold text-center md:text-left text-[#393939] md:mt-0 mt-[15px] md:mb-0 mb-3">
+            About <span className="text-[#E2761B]"> Us</span>
           </h2>
 
           {/* Description */}
-          <p className="text-base open-sans font-medium text-[#9F9F9F] max-w-[619px]">
+          <p className="md:text-base text-[13px] open-sans font-medium text-[#9F9F9F] max-w-[619px] ">
             Saket Enterprises is a leading name in the furniture and wood
             industry, known for delivering high quality Plywood, Hardware,
             Household furniture, Bastar Art, and Artifacts. Founded by Saket
@@ -163,16 +167,25 @@ const AboutSection = () => {
             with modern techniques, the company has built a reputation for
             excellence and innovation.
           </p>
-          <p className="text-base open-sans font-medium text-[#9F9F9F] max-w-[619px]">
+          <p className="md:text-base text-[13px] open-sans font-medium text-[#9F9F9F] max-w-[619px]">
             Our dedication to quality and design has earned us the trust of
             customers looking for unique and durable solutions for their homes
             and businesses!
           </p>
 
           {/* Logos and text sections */}
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 md:space-x-8">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-5 md:space-y-0 md:space-x-8 md:mt-0 mt-10">
             {/* First Section */}
-            <div className="flex flex-col items-center text-center justify-between">
+            {/* <div className="flex flex-col items-center text-center justify-between">
+              <img src={logo1} alt="Logo 1" className="w-10 h-auto mb-4" />
+              <h3 className="font-medium text-base text-[#393939]">
+                1000+ Happy Customers
+              </h3>
+              <p className="text-[12px] font-medium text-[#9F9F9F] open-sans">
+                Serving 1000+ satisfied customers.
+              </p>
+            </div> */}
+            <div className="flex flex-col items-center text-center justify-between p-6 md:p-0 bg-white md:border-hidden border border-gray-300 rounded-lg md:bg-transparent md:shadow-none md:rounded-none">
               <img src={logo1} alt="Logo 1" className="w-10 h-auto mb-4" />
               <h3 className="font-medium text-base text-[#393939]">
                 1000+ Happy Customers
@@ -186,8 +199,8 @@ const AboutSection = () => {
             <div className="hidden md:flex items-center justify-center h-4/5 w-[1px] bg-gray-300 mx-4"></div>
 
             {/* Second Section */}
-            <div className="flex flex-col items-center text-center justify-between">
-              <img src={logo2} alt="Logo 2" className="w-[38px] h-auto mb-4" />
+            <div className="flex flex-col items-center text-center justify-between px-10 py-5 md:p-0 bg-white md:border-hidden border border-gray-300 rounded-lg md:bg-transparent md:shadow-none md:rounded-none">
+              <img src={logo2} alt="Logo 2" className="w-10 h-auto mb-4" />
               <h3 className="font-medium text-base text-[#393939]">
                 Assured Quality
               </h3>
@@ -200,7 +213,7 @@ const AboutSection = () => {
             <div className="hidden md:flex items-center justify-center h-4/5 w-[1px] bg-gray-300 mx-4"></div>
 
             {/* Third Section */}
-            <div className="flex flex-col items-center text-center justify-between">
+            <div className="flex flex-col items-center text-center justify-between px-9 py-6 md:p-0 bg-white md:border-hidden border border-gray-300 rounded-lg md:bg-transparent md:shadow-none md:rounded-none">
               <img src={logo3} alt="Logo 3" className="w-10 h-auto mb-4" />
               <h3 className="font-medium text-base text-[#393939]">
                 Express Delivery

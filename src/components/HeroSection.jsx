@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import bgImage from "/src/assets/Optimize Image/Frame61-ezgif.com-optiwebp.webp";
+import mobileBgImage from "/src/assets/Optimize Image/Frame1919-ezgif.com-png-to-webp-converter.webp"
 import rightImage from "/src/assets/Optimize Image/Group31-ezgif.com-optiwebp.webp";
 import { useNavigate } from "react-router-dom";
 import AOS from "aos";
@@ -14,10 +15,16 @@ const HeroSection = () => {
     navigate("/contact");
   };
   return (
-    <section className="relative w-full h-screen">
+    <section className="relative w-full h-full py-20">
       {/* Background Image */}
       <div
-        className="absolute inset-0 bg-cover z-0"
+        className={`absolute inset-0 bg-cover z-0 bg-no-repeat`}
+        style={{
+          backgroundImage: `url(${mobileBgImage})`,
+        }}
+      ></div>
+      <div
+        className="hidden md:block absolute inset-0 bg-cover z-0 bg-no-repeat"
         style={{ backgroundImage: `url(${bgImage})` }}
       ></div>
 
@@ -25,7 +32,7 @@ const HeroSection = () => {
       <div className="relative z-10 flex flex-col md:flex-row justify-between items-center h-full container mx-auto px-4 md:px-32">
         {/* Left side: Text section */}
         <div
-          className="text-white md:w-1/2 space-y-4 p-6 md:p-0 z-20"
+          className="text-white md:w-1/2 space-y-4 px-9 md:px-0 py-[108px] md:py-0 z-20"
           data-aos="fade-up-right"
         >
           <h1 className="text-4xl md:text-[37px] font-bold">
@@ -44,7 +51,7 @@ const HeroSection = () => {
         </div>
 
         {/* Right side: Foreground Image */}
-        <div className="md:w-1/2 flex justify-end mt-6 md:mt-0 relative z-30">
+        <div className="md:w-1/2 justify-end mt-6 md:mt-0 relative z-30 hidden md:block">
           <img
             data-aos="fade-up-left"
             src={rightImage}

@@ -13,7 +13,7 @@ const About = () => {
       <AboutUsPageComp2 />
       <AboutUsPageComp3 />
       <AboutUsPageComp4 />
-      <WhyChooseUs />
+      {/* <WhyChooseUs /> */}
       <BrochureCard />
     </>
   );
