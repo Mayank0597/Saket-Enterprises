@@ -22,31 +22,31 @@ const WhyChooseUs = () => {
       <img
         src={bgImage1}
         alt="Background 1"
-        className="absolute z-0 w-[132px] h-[159px]"
+        className="absolute z-0 w-[132px] h-[159px] hidden md:block"
         style={{ left: "540px", top: "80px" }} // Position relative to the heading
       />
       <img
         src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[163px] h-[123px]"
+        className="absolute z-0 w-[163px] h-[123px] hidden md:block"
         style={{ left: "1110px", top: "200px" }} // Positioned below the heading
       />
       <img
         src={bgImage3}
         alt="Background 3"
-        className="absolute z-0 w-[155px] h-[120px]"
+        className="absolute z-0 w-[155px] h-[120px] hidden md:block"
         style={{ left: "814px", top: "45%" }} // Centered height-wise
       />
       <img
         src={bgImage4}
         alt="Background 4"
-        className="absolute z-0 w-[88px] h-[159px]"
+        className="absolute z-0 w-[88px] h-[159px] hidden md:block"
         style={{ left: "568px", bottom: "80px" }} // Positioned at the bottom
       />
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[58px] h-[91px]"
+        className="absolute z-0 w-[58px] h-[91px] hidden md:block"
         style={{ left: "1050px", bottom: "50px" }} // Positioned at the bottom
       />
 
