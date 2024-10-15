@@ -151,7 +151,6 @@ const AboutSection = () => {
         {/* Right-side Content */}
         <div
           className="flex flex-col justify-center md:space-y-8 md:pl-64 text-justify md:px-0 px-[30px]"
-          data-aos="fade-left"
         >
           {/* Heading */}
           <h2 className="text-[33px] md:text-[46px] font-semibold text-center md:text-left text-[#393939] md:mt-0 mt-[15px] md:mb-0 mb-3">

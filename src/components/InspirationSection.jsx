@@ -27,7 +27,7 @@ const InspirationSection = () => {
       </div>
 
       {/* Image Section */}
-      <div className="w-full md:w-[720px] md:h-[370px] h-[240px]" data-aos="fade-left">
+      <div className="w-full md:w-[720px] md:h-[370px] h-[240px]">
         <img
           src={window.innerWidth < 768 ? mobileImage : sampleImage}
           alt="Inspiration"

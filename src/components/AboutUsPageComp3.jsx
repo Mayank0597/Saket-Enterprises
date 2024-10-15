@@ -54,66 +54,76 @@
 
 import React from "react";
 import backgroundImage from "/src/assets/Optimize Image/Frame18632-ezgif.com-png-to-webp-converter.webp";
+import MobileBackgroundImage from "/src/assets/Optimize Image/Frame18634-ezgif.com-png-to-webp-converter.webp";
 import { Parallax } from "react-parallax";
 
 const AboutUsPageComp3 = () => {
   return (
     <Parallax
-      bgImage={backgroundImage}
+      bgImage={
+        window.innerWidth < 768 ? MobileBackgroundImage : backgroundImage
+      }
       strength={300}
       bgImageStyle={{
         minHeight: "100%",
         minWidth: "100%",
-        
       }}
     >
-      <div className="relative w-full h-[506px]">
+      <div className="relative w-full md:h-[506px] h-[854px]">
         {/* Full-width background image */}
         {/* <img src={backgroundImage} alt="Background" className="w-full h-full" /> */}
 
         {/* Overlaid sections */}
-        <div className="absolute top-0 flex items-center h-full justify-center w-full text-white px-6 lg:px-20">
+        <div className="absolute top-0 flex items-center h-full justify-center w-full text-white  md:px-20">
           {/* Section Container */}
           <div className="flex flex-wrap justify-between w-full items-center">
             {/* Section 1 */}
-            <div className="flex flex-col justify-center items-start px-4 lg:px-4 py-6 lg:py-0 max-w-[337px] ">
-              <h2 className="text-xl lg:text-[46px] font-semibold mb-5">
+            <div className="flex flex-col justify-center items-start px-[57px] md:px-4 py-6 md:py-0 md:max-w-[337px] ">
+              <h2 className="text-[33px] md:text-[46px] font-semibold mb-3">
                 Our <span className="text-[#E2761B]">Mission</span>
               </h2>
-              <p className="text-sm lg:text-base text-justify open-sans font-medium text-[#F6F6F6]">
-                Our mission is to create Exquisite and Handcrafted furniture
-                that enhances the beauty and comfort of the living spaces in
-                your homes.
+              <p className="text-sm md:text-base text-justify open-sans md:font-medium font-normal text-[#CECECE]">
+                At Saket Enterprises, Our mission is to provide our customers
+                with high-quality plywood, hardware, stylish furniture and
+                artefacts. We aim to create pieces that enhance your living
+                spaces while preserving the cultural essence of our heritage.
               </p>
             </div>
 
             {/* Vertical Line */}
             <div className="hidden lg:block w-[1px] h-[80px] bg-[#9A9999]"></div>
+
+            {/* Horizontal line */}
+            <hr className="md:hidden border-[#464646] h-[1px] w-full mx-12 my-8" />
 
             {/* Section 2 */}
-            <div className="flex flex-col justify-center items-start px-4 lg:px-4 pl-4 pr-4 py-6 lg:py-0 max-w-[337px] ">
-              <h2 className="text-xl lg:text-[46px] font-semibold mb-5">
+            <div className="flex flex-col justify-center items-start px-[57px] md:px-4 py-6 md:py-0 md:max-w-[337px] ">
+              <h2 className="text-[33px] md:text-[46px] font-semibold mb-3">
                 Our <span className="text-[#E2761B]">Vision</span>
               </h2>
-              <p className="text-sm lg:text-base text-justify open-sans font-medium text-[#F6F6F6]">
-                Our mission is to create Exquisite and Handcrafted furniture
-                that enhances the beauty and comfort of the living spaces in
-                your homes.
+              <p className="text-sm md:text-base text-justify open-sans md:font-medium text-[#CECECE] font-normal">
+                We envision a world where every home and workspace reflects
+                individuality and elegance. By merging traditional craftsmanship
+                with modern design, we aspire to become a global leader in the
+                furniture and art industry.
               </p>
             </div>
 
             {/* Vertical Line */}
-            <div className="hidden lg:block w-[1px] h-[80px] bg-[#9A9999]"></div>
+            <div className="hidden md:block w-[1px] h-[80px] bg-[#9A9999]"></div>
 
+            {/* Horizontal line */}
+            <hr className="md:hidden border-[#464646] h-[1px] w-full mx-12 my-8" />
             {/* Section 3 */}
-            <div className="flex flex-col justify-center items-start px-4 lg:px-4 pl-4 py-6 lg:py-0 max-w-[337px] ">
-              <h2 className="text-xl lg:text-[46px] font-semibold mb-5">
+            <div className="flex flex-col justify-center items-start px-[57px] md:px-4 py-6 md:py-0 md:max-w-[337px] ">
+              <h2 className="text-[33px] md:text-[46px] font-semibold mb-3">
                 Our <span className="text-[#E2761B]">Values</span>
               </h2>
-              <p className="text-sm lg:text-base text-justify open-sans font-medium text-[#F6F6F6]">
-                Our mission is to create Exquisite and Handcrafted furniture
-                that enhances the beauty and comfort of the living spaces in
-                your homes.
+              <p className="text-sm md:text-base text-justify open-sans md:font-medium font-normal text-[#CECECE]">
+                At Saket Enterprises, we value integrity, quality, and customer
+                satisfaction. We believe in building lasting relationships with
+                our clients through honesty, excellence, and a commitment to
+                delivering superior products.
               </p>
             </div>
           </div>

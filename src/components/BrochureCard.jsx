@@ -43,23 +43,28 @@
 
 import React from "react";
 import backgroundImage from "/src/assets/Optimize Image/Brochure1-ezgif.com-png-to-webp-converter.webp";
+import MobileBackgroundImage from "/src/assets/Brochure Mobile.png";
 
 const BrochureCard = () => {
   return (
     <div
       className="relative w-full h-[470px] bg-cover bg-center"
-      style={{ backgroundImage: `url(${backgroundImage})` }}
+      style={{
+        backgroundImage: `url(${
+          window.innerWidth < 768 ? MobileBackgroundImage : backgroundImage
+        })`,
+      }}
     >
       {/* Card */}
       <div
-        className="absolute bg-white/80 p-8 md:p-10 lg:p-14 rounded-md shadow-lg"
-        style={{
-          top: "10%",
-          left: "5%",
-          right: "5%",
-          maxWidth: "450px",
-          height: "auto",
-        }}
+        className="absolute bg-white/80 p-8 md:p-14 rounded-md shadow-lg md:top-[10%] md:left-[5%] md:right-[5%] md:max-w-[450px] md:h-auto left-[30px] right-[30px] top-[100px]"
+        // style={{
+        //   top: "10%",
+        //   left: "5%",
+        //   right: "5%",
+        //   maxWidth: "450px",
+        //   height: "auto",
+        // }}
       >
         {/* Heading */}
         <h2 className="text-[33px] md:text-[37px] leading-10 font-bold">
@@ -69,7 +74,8 @@ const BrochureCard = () => {
 
         {/* Lorem Text */}
         <p className="mt-4 text-sm md:text-base font-medium text-[#4B4B4B]">
-          Get detailed insights into our products, designs, and special features.
+          Get detailed insights into our products, designs, and special
+          features.
         </p>
 
         {/* Download Button */}
@@ -82,7 +88,6 @@ const BrochureCard = () => {
 };
 
 export default BrochureCard;
-
 
 // import React, { useEffect } from "react";
 // import { Parallax } from "react-parallax"; // Import Parallax
@@ -99,8 +104,8 @@ export default BrochureCard;
 //       bgImage={backgroundImage}
 //       strength={50} // Control parallax intensity
 //       // bgImageStyle={{
-//       //   minHeight: "130%", 
-//       //   minWidth: "100%", 
+//       //   minHeight: "130%",
+//       //   minWidth: "100%",
 //       // }}
 //       className="w-full h-[470px]"
 //     >

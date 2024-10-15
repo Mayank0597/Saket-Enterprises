@@ -5,6 +5,7 @@ import AboutUsPageComp1 from "../components/AboutUsPageComp1";
 import AboutUsPageComp3 from "../components/AboutUsPageComp3";
 import AboutUsPageComp4 from "../components/AboutUsPageComp4";
 import BrochureCard from "../components/BrochureCard";
+import AboutUsPageComp4Mobile from "../components/AboutUsPageComp4Mobile";
 
 const About = () => {
   return (
@@ -12,7 +13,12 @@ const About = () => {
       <AboutUsPageComp1 />
       <AboutUsPageComp2 />
       <AboutUsPageComp3 />
-      <AboutUsPageComp4 />
+      <div className="md:block hidden">
+        <AboutUsPageComp4 />
+      </div>
+      <div className="md:hidden">
+        <AboutUsPageComp4Mobile />
+      </div>
       <WhyChooseUs />
       <BrochureCard />
     </>

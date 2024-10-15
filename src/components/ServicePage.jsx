@@ -22,15 +22,15 @@ import bgImage5 from "/src/assets/mynaui_lamp (2).png";
 const ServicePage = () => {
   const Section = ({ imageSrc, heading, paragraph, imageOnLeft }) => {
     return (
-      <div className="flex flex-col lg:flex-row px-4 lg:px-0 z-10">
+      <div className="flex  px-0 z-10">
         {imageOnLeft ? (
           <>
             {/* Left-aligned Grey Area with Image */}
 
-            <div className="relative h-[646px]">
-              <div className="absolute w-[390px] h-full bg-[#D9D9D9] -z-50"></div>
-              <div class="flex justify-center items-center h-full gap-16">
-                <div class="w-full md:w-4/12">
+            <div className="relative md:h-[646px] h-[314px]">
+              <div className="md:absolute relative md:w-[390px] w-[170px] h-full bg-[#D9D9D9] -z-50"></div>
+              <div class="flex justify-center items-center h-full gap-16 flex-col md:flex-row">
+                <div class="w-[240px] md:w-4/12">
                   <img src={imageSrc} alt="Service" className="" />
                 </div>
                 <div class="w-full md:w-5/12">
@@ -52,8 +52,8 @@ const ServicePage = () => {
 
             <div className="relative h-[646px]">
               {/* Grey background on the right side */}
-              <div className="absolute right-0 w-[390px] h-full bg-[#D9D9D9] -z-50"></div>
-              <div className="flex justify-center items-center h-full gap-16">
+              <div className="md:absolute relative right-0 md:w-[390px] w-[170px] h-full bg-[#D9D9D9] -z-50"></div>
+              <div className="flex justify-center items-center h-full gap-16 flex-col-reverse md:flex-row">
                 {/* Text and heading on the left side */}
                 <div className="w-full md:w-5/12">
                   <div className="flex flex-col">
@@ -66,7 +66,7 @@ const ServicePage = () => {
                   </div>
                 </div>
                 {/* Image on the right side */}
-                <div className="w-full md:w-4/12">
+                <div className="w-[240px] md:w-4/12">
                   <img src={imageSrc} alt="Service" className="" />
                 </div>
               </div>
@@ -294,6 +294,7 @@ const ServicePage = () => {
         className="absolute z-0 w-[58px] h-[91px] hidden md:block"
         style={{ left: "40%", top: "8800px" }}
       />
+
       {/* First Section: Image and Grey Area on the Left */}
       <Section
         imageSrc={image1}

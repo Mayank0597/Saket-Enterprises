@@ -66,7 +66,6 @@ const ServicesSection = () => {
             src={image3}
             alt="Service 3"
             className="w-full mb-4"
-            data-aos="fade-left"
           />
           <h3 className="text-[19px] font-semibold text-[#393939]">
             Veneer Plywood
