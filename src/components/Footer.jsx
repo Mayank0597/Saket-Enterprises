@@ -418,7 +418,7 @@ const Footer = () => {
               to="https://maps.app.goo.gl/fjqKZzW8VdE7L6t16"
               target="_blank"
               rel="noopener noreferrer"
-            > 
+            >
               <img src={LocationImage} alt="Location" className="w-9 h-9" />
             </NavLink>
             <NavLink
@@ -493,7 +493,7 @@ const Footer = () => {
             </li>
             <li>
               <NavLink
-                to="/privacy-policy"
+                to="/privacy"
                 className="text-[#9A9A9A] open-sans text-[16px] font-medium hover:text-[#E2761B]"
               >
                 Privacy Policy

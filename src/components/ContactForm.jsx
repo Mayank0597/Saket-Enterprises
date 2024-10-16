@@ -220,14 +220,14 @@ import bgImage from "/src/assets/Optimize Image/Frame18901-ezgif.com-png-to-webp
 
 const ContactForm = () => {
   return (
-    <div className="relative flex flex-col md:flex-row justify-center items-center pt-[62px] md:pt-40 pb-[72px] md:pb-32 md:mr-32">
+    <div className="relative flex flex-col md:flex-row justify-center items-center pt-[62px] lg:pt-40 pb-[72px] lg:pb-32 lg:mr-32">
       {/* Grey Background on larger screens */}
-      <div className="hidden md:block absolute right-0 w-[1005px] h-[836px] bg-[#F3F2F2] z-0 rounded-lg" />
+      <div className="hidden lg:block absolute right-0 w-[1005px] h-[836px] bg-[#F3F2F2] z-0 rounded-lg" />
 
       {/* Contact Information Section */}
-      <div className="relative w-full md:w-[579px] h-auto z-10 px-6 md:px-0 md:ml-0 mb-8 md:mb-0 md:mr-20">
+      <div className="relative w-full lg:w-[579px] h-auto z-10 px-6 lg:px-0 lg:ml-0 mb-8 lg:mb-0 lg:mr-20">
         {/* Remove bgImage for mobile */}
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <img
             src={bgImage}
             alt="Background Image"
@@ -236,8 +236,8 @@ const ContactForm = () => {
         </div>
 
         {/* Contact Information for mobile and larger screens */}
-        <div className="w-full max-w-[407px] mx-auto md:absolute md:top-[20%] md:left-[17%] md:transform md:translate-y-1/5 md:-translate-x-1/5 text-white">
-          <div className="flex flex-col items-start gap-[20px] md:gap-[61px] md:px-0 px-7">
+        <div className="w-full max-w-[407px] mx-auto lg:absolute lg:top-[20%] lg:left-[17%] lg:transform lg:translate-y-1/5 lg:-translate-x-1/5 text-white">
+          <div className="flex flex-col items-start gap-[20px] lg:gap-[61px] lg:px-0 px-7">
             {/* Section 1: Address */}
             <div className="flex flex-row items-start">
               <img
@@ -246,15 +246,15 @@ const ContactForm = () => {
                 className="w-[20px] h-[30px] mr-4 lg:mr-5"
               />
               <div className="flex flex-col items-start">
-                <h3 className="text-[19px] md:text-3xl font-semibold text-[#E2761B]">
+                <h3 className="text-[19px] lg:text-3xl font-semibold text-[#E2761B]">
                   Address
                 </h3>
                 <div className="flex flex-col">
-                  <p className="text-base md:text-lg font-medium md:text-[#E3E3E3] text-[#393939] open-sans">
+                  <p className="text-base lg:text-lg font-medium lg:text-[#E3E3E3] text-[#393939] open-sans">
                     Dhamtari Road, Abhanpur, Chhattisgarh
                   </p>
                   <br />
-                  <p className="text-base md:text-lg font-medium md:text-[#E3E3E3] text-[#393939] open-sans">
+                  <p className="text-base lg:text-lg font-medium lg:text-[#E3E3E3] text-[#393939] open-sans">
                     CGHB Building, Sector 27, Nawagaon Parsatti, Atal Nagar, New
                     Raipur, Raipur(C.G)
                   </p>
@@ -273,7 +273,7 @@ const ContactForm = () => {
                 <h3 className="text-xl lg:text-3xl font-semibold text-[#E2761B]">
                   Phone
                 </h3>
-                <p className="text-base md:text-lg font-medium md:text-[#E3E3E3] text-[#393939] open-sans">
+                <p className="text-base lg:text-lg font-medium lg:text-[#E3E3E3] text-[#393939] open-sans">
                   +91 97523-24111
                 </p>
               </div>
@@ -290,7 +290,7 @@ const ContactForm = () => {
                 <h3 className="text-xl lg:text-3xl font-semibold text-[#E2761B]">
                   Email
                 </h3>
-                <p className="text-base md:text-lg font-medium md:text-[#E3E3E3] text-[#393939] open-sans">
+                <p className="text-base md:text-lg font-medium lg:text-[#E3E3E3] text-[#393939] open-sans">
                   Saketplywood@gmail.com
                 </p>
               </div>
@@ -300,8 +300,8 @@ const ContactForm = () => {
       </div>
 
       {/* Contact Form Section */}
-      <div className="w-full md:w-[536px] h-auto px-8 py-14 md:px-8 md:py-8 bg-[#F3F2F2] z-20">
-        <h2 className="text-[33px] md:text-[46px] font-semibold mb-4 text-[#393939]">
+      <div className="w-full lg:w-[536px] h-auto px-8 py-14 lg:px-8 lg:py-8 bg-[#F3F2F2] z-20">
+        <h2 className="text-[33px] lg:text-[46px] font-semibold mb-4 text-[#393939]">
           <span className="text-[#E2761B]">Get in touch</span> with us!
         </h2>
 

@@ -28,12 +28,12 @@ const ServicePage = () => {
             {/* Left-aligned Grey Area with Image */}
 
             <div className="relative md:h-[646px] h-[314px]">
-              <div className="md:absolute relative md:w-[390px] w-[170px] h-full bg-[#D9D9D9] -z-50"></div>
+              <div className="md:absolute relative lg:w-[390px] w-[170px] h-full bg-[#D9D9D9] -z-50"></div>
               <div class="flex justify-center items-center h-full gap-16 flex-col md:flex-row">
-                <div class="w-[240px] md:w-4/12">
+                <div class="w-[240px] lg:w-4/12">
                   <img src={imageSrc} alt="Service" className="" />
                 </div>
-                <div class="w-full md:w-5/12">
+                <div class="w-full md:w-2/5 lg:w-5/12">
                   <div className="flex flex-col">
                     <h2 className="text-[46px] font-semibold text-[#393939]">
                       {heading}
@@ -52,10 +52,10 @@ const ServicePage = () => {
 
             <div className="relative h-[646px]">
               {/* Grey background on the right side */}
-              <div className="md:absolute relative right-0 md:w-[390px] w-[170px] h-full bg-[#D9D9D9] -z-50"></div>
+              <div className="md:absolute relative right-0 lg:w-[390px] w-[170px] h-full bg-[#D9D9D9] -z-50"></div>
               <div className="flex justify-center items-center h-full gap-16 flex-col-reverse md:flex-row">
                 {/* Text and heading on the left side */}
-                <div className="w-full md:w-5/12">
+                <div className="w-full md:w-2/5 lg:w-5/12">
                   <div className="flex flex-col">
                     <h2 className="text-[46px] font-semibold text-[#393939]">
                       {heading}
@@ -66,7 +66,7 @@ const ServicePage = () => {
                   </div>
                 </div>
                 {/* Image on the right side */}
-                <div className="w-[240px] md:w-4/12">
+                <div className="w-[240px] lg:w-4/12">
                   <img src={imageSrc} alt="Service" className="" />
                 </div>
               </div>
@@ -83,215 +83,215 @@ const ServicePage = () => {
       <img
         src={bgImage1}
         alt="Background 1"
-        className="absolute z-0 w-[132px] h-[159px] hidden md:block"
+        className="absolute z-0 w-[132px] h-[159px] hidden xl:block"
         style={{ left: "700px", top: "50px" }}
       />
       <img
         src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[163px] h-[123px] hidden md:block"
+        className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
         style={{ right: "50px", top: "350px" }}
       />
 
       <img
         src={bgImage4}
         alt="Background 4"
-        className="absolute z-0 w-[155px] h-[120px] hidden md:block"
+        className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
         style={{ right: "550px", top: "900px" }}
       />
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[58px] h-[91px] hidden md:block"
+        className="absolute z-0 w-[58px] h-[91px] hidden xl:block"
         style={{ left: "30%", top: "500px" }}
       />
 
       <img
         src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[163px] h-[123px] hidden md:block"
+        className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
         style={{ right: "60%", top: "1200px" }}
       />
 
       <img
         src={bgImage1}
         alt="Background 1"
-        className="absolute z-0 w-[132px] h-[159px] hidden md:block"
+        className="absolute z-0 w-[132px] h-[159px] hidden xl:block"
         style={{ left: "1100px", top: "1400px" }}
       />
       <img
         src={bgImage4}
         alt="Background 4"
-        className="absolute z-0 w-[155px] h-[120px] hidden md:block"
+        className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
         style={{ right: "650px", top: "1800px" }}
       />
       <img
         src={bgImage1}
         alt="Background 1"
-        className="absolute z-0 w-[132px] h-[159px] hidden md:block"
+        className="absolute z-0 w-[132px] h-[159px] hidden xl:block"
         style={{ left: "50px", top: "2000px" }}
       />
 
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[58px] h-[91px] hidden md:block"
+        className="absolute z-0 w-[58px] h-[91px] hidden xl:block"
         style={{ left: "80%", top: "2700px" }}
       />
 
       <img
         src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[163px] h-[123px] hidden md:block"
+        className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
         style={{ right: "1200px", top: "2400px" }}
       />
 
       <img
         src={bgImage4}
         alt="Background 4"
-        className="absolute z-0 w-[155px] h-[120px] hidden md:block"
+        className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
         style={{ right: "650px", top: "3000px" }}
       />
       <img
         src={bgImage1}
         alt="Background 1"
-        className="absolute z-0 w-[132px] h-[159px] hidden md:block"
+        className="absolute z-0 w-[132px] h-[159px] hidden xl:block"
         style={{ left: "850px", top: "2300px" }}
       />
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[58px] h-[91px] hidden md:block"
+        className="absolute z-0 w-[58px] h-[91px] hidden xl:block"
         style={{ left: "10%", top: "3300px" }}
       />
 
       <img
         src={bgImage1}
         alt="Background 1"
-        className="absolute z-0 w-[132px] h-[159px] hidden md:block"
+        className="absolute z-0 w-[132px] h-[159px] hidden xl:block"
         style={{ left: "1100px", top: "1400px" }}
       />
       <img
         src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[163px] h-[123px] hidden md:block"
+        className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
         style={{ right: "60%", top: "1200px" }}
       />
       <img
         src={bgImage4}
         alt="Background 4"
-        className="absolute z-0 w-[155px] h-[120px] hidden md:block"
+        className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
         style={{ right: "650px", top: "1800px" }}
       />
 
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[58px] h-[91px] hidden md:block"
+        className="absolute z-0 w-[58px] h-[91px] hidden xl:block"
         style={{ left: "80%", top: "2700px" }}
       />
       <img
         src={bgImage1}
         alt="Background 1"
-        className="absolute z-0 w-[132px] h-[159px] hidden md:block"
+        className="absolute z-0 w-[132px] h-[159px] hidden xl:block"
         style={{ left: "700px", top: "3800px" }}
       />
       <img
         src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[163px] h-[123px] hidden md:block"
+        className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
         style={{ right: "50px", top: "4000px" }}
       />
 
       <img
         src={bgImage4}
         alt="Background 4"
-        className="absolute z-0 w-[155px] h-[120px] hidden md:block"
+        className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
         style={{ right: "850px", top: "4400px" }}
       />
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[58px] h-[91px] hidden md:block"
+        className="absolute z-0 w-[58px] h-[91px] hidden xl:block"
         style={{ left: "30%", top: "5000px" }}
       />
 
       <img
         src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[163px] h-[123px] hidden md:block"
+        className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
         style={{ right: "60%", top: "5700px" }}
       />
 
       <img
         src={bgImage1}
         alt="Background 1"
-        className="absolute z-0 w-[132px] h-[159px] hidden md:block"
+        className="absolute z-0 w-[132px] h-[159px] hidden xl:block"
         style={{ left: "1300px", top: "5400px" }}
       />
       <img
         src={bgImage4}
         alt="Background 4"
-        className="absolute z-0 w-[155px] h-[120px] hidden md:block"
+        className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
         style={{ right: "600px", top: "6000px" }}
       />
 
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[58px] h-[91px] hidden md:block"
+        className="absolute z-0 w-[58px] h-[91px] hidden xl:block"
         style={{ left: "20%", top: "6300px" }}
       />
 
       <img
         src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[163px] h-[123px] hidden md:block"
+        className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
         style={{ right: "100px", top: "6500px" }}
       />
 
       <img
         src={bgImage4}
         alt="Background 4"
-        className="absolute z-0 w-[155px] h-[120px] hidden md:block"
+        className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
         style={{ right: "850px", top: "6900px" }}
       />
       <img
         src={bgImage1}
         alt="Background 1"
-        className="absolute z-0 w-[132px] h-[159px] hidden md:block"
+        className="absolute z-0 w-[132px] h-[159px] hidden xl:block"
         style={{ left: "850px", top: "7100px" }}
       />
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[58px] h-[91px] hidden md:block"
+        className="absolute z-0 w-[58px] h-[91px] hidden xl:block"
         style={{ left: "10%", top: "7600px" }}
       />
 
       <img
         src={bgImage1}
         alt="Background 1"
-        className="absolute z-0 w-[132px] h-[159px] hidden md:block"
+        className="absolute z-0 w-[132px] h-[159px] hidden xl:block"
         style={{ left: "1100px", top: "7800px" }}
       />
       <img
         src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[163px] h-[123px] hidden md:block"
+        className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
         style={{ right: "60%", top: "8000px" }}
       />
       <img
         src={bgImage4}
         alt="Background 4"
-        className="absolute z-0 w-[155px] h-[120px] hidden md:block"
+        className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
         style={{ right: "1200px", top: "8400px" }}
       />
 
       <img
         src={bgImage5}
         alt="Background 5"
-        className="absolute z-0 w-[58px] h-[91px] hidden md:block"
+        className="absolute z-0 w-[58px] h-[91px] hidden xl:block"
         style={{ left: "40%", top: "8800px" }}
       />
 

@@ -14,7 +14,7 @@ const AboutUsPageComp1 = () => {
 
       {/* Centered heading */}
       <div className="absolute inset-0 flex items-center justify-center">
-        <h1 className="text-[33px] lg:text-6xl font-semibold text-white">
+        <h1 className="text-[33px] lg:text-[56px] font-semibold text-white">
           About Us
         </h1>
       </div>

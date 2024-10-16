@@ -22,16 +22,16 @@ const ServicesSection = () => {
     <div className="text-center py-12">
       {/* Heading */}
       <h2
-        className="text-[33px] md:text-[46px] font-semibold text-[#393939] mb-12"
+        className="text-[33px] lg:text-[46px] font-semibold text-[#393939] mb-12"
         data-aos="fade-down"
       >
         Services
       </h2>
 
       {/* Images and text */}
-      <div className="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 mb-12 md:mx-20 md:gap-5">
+      <div className="flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 mb-12 lg:mx-20  lg:gap-5">
         {/* Service 1 */}
-        <div className="flex flex-col items-start md:w-1/3 w-[300px] h-auto md:gap-2">
+        <div className="flex flex-col items-start lg:w-1/3 w-[300px] h-auto lg:gap-2">
           <img
             src={window.innerWidth < 768 ? Mobileimage1 : image1}
             alt="Service 1"
@@ -39,14 +39,14 @@ const ServicesSection = () => {
             data-aos="fade-right"
           />
           <h3 className="text-[19px] font-semibold text-[#393939]">Plywood</h3>
-          <p className="text-[#9F9F9F] text-start open-sans md:text-base text-[13px] font-medium">
+          <p className="text-[#9F9F9F] text-start open-sans lg:text-base text-[13px] font-medium">
             We offer high-quality plywood that stands out for its strength,
             durability and versatility.
           </p>
         </div>
 
         {/* Service 2 */}
-        <div className="flex flex-col items-start md:w-1/3 w-[300px] md:gap-2">
+        <div className="flex flex-col items-start lg:w-1/3 w-[300px] lg:gap-2">
           <img
             src={image2}
             alt="Service 2"
@@ -54,14 +54,14 @@ const ServicesSection = () => {
             data-aos="fade-up"
           />
           <h3 className="text-[19px] font-semibold text-[#393939]">Mica</h3>
-          <p className="text-[#9F9F9F] text-start open-sans md:text-base text-[13px] font-medium">
+          <p className="text-[#9F9F9F] text-start open-sans lg:text-base text-[13px] font-medium">
             Our range of mica sheets is designed to be an ideal choice of
             kitchens, bathrooms and high-traffic areas.
           </p>
         </div>
 
         {/* Service 3 */}
-        <div className="flex flex-col items-start md:w-1/3 w-[300px] md:gap-2">
+        <div className="flex flex-col items-start lg:w-1/3 w-[300px] lg:gap-2">
           <img
             src={image3}
             alt="Service 3"
@@ -70,7 +70,7 @@ const ServicesSection = () => {
           <h3 className="text-[19px] font-semibold text-[#393939]">
             Veneer Plywood
           </h3>
-          <p className="text-[#9F9F9F] text-start open-sans md:text-base text-[13px] font-medium">
+          <p className="text-[#9F9F9F] text-start open-sans lg:text-base text-[13px] font-medium">
             For those who seek a natural wood finish, our veneer plywood offers
             a perfect solution.
           </p>

@@ -10,7 +10,7 @@ const Contact = () => {
     <>
       <ContactUsPageComp1 />
       <ContactForm />
-      <div className="flex flex-col lg:flex-row justify-between items-center md:mt-10 md:mb-10 md:px-8 md:space-x-6">
+      <div className="flex flex-col lg:flex-row justify-between items-center lg:mt-10 lg:mb-10 lg:px-8 lg:space-x-6">
         <LocationComponent />
         <LocationComponent1 />
       </div>

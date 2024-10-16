@@ -237,7 +237,7 @@ const WhyChooseUs = () => {
       </div>
 
       {/* Desktop View (4 Icon Layout) */}
-      <div className="hidden lg:block relative w-full items-center justify-center mt-10">
+      <div className="hidden xl:block relative w-full items-center justify-center mt-10">
         <div className="absolute w-[360px] h-[360px] rounded-full z-20">
           {/* Similar layout for all 4 icons */}
           {/* Icon 1 */}
@@ -338,7 +338,7 @@ const WhyChooseUs = () => {
       </div>
 
       {/* Mobile View (Vertical Cards Layout) */}
-      <div className="lg:hidden mt-10 w-full flex flex-col items-center space-y-8">
+      <div className="xl:hidden mt-10 w-full flex flex-col items-center space-y-8">
         {/* Card 1 */}
         <div className="bg-white shadow-lg rounded-md p-7 w-[80%] flex flex-col items-center text-center">
           <img src={icon1} alt="Icon 1" className="w-16 h-16 mb-5" />

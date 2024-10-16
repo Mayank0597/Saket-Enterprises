@@ -26,7 +26,7 @@ const SpecialFeatures = () => {
       </h2>
 
       {/* Icons with Text */}
-      <div className="relative flex flex-col md:flex-row md:space-x-28 md:space-y-0 space-y-[89px] justify-center z-20 md:mb-0 mb-[102px]">
+      <div className="relative flex flex-col md:flex-row lg:space-x-28 md:space-x-16 md:space-y-0 space-y-[89px] justify-center z-20 md:mb-0 mb-[102px]">
         <div className="flex flex-col items-center justify-center ">
           <img
             src={icon1}

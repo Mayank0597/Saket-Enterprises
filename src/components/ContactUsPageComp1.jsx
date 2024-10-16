@@ -4,7 +4,7 @@ import mobileImage from "/src/assets/Optimize Image/Frame7410-ezgif.com-png-to-w
 
 const ContactUsPageComp1 = () => {
   return (
-    <div className="relative w-full md:h-[445px]">
+    <div className="relative w-full md:h-auto">
       {/* Full-width image */}
       <img
         src={window.innerWidth < 768 ? mobileImage : image}
@@ -14,7 +14,7 @@ const ContactUsPageComp1 = () => {
 
       {/* Centered heading */}
       <div className="absolute inset-0 flex items-center justify-center">
-        <h1 className="text-[33px] md:text-[56px] font-semibold text-[#FFF]">
+        <h1 className="text-[33px] lg:text-[56px] font-semibold text-[#FFF]">
           Contact Us
         </h1>
       </div>

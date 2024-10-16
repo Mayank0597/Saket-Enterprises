@@ -116,13 +116,13 @@ const AboutSection = () => {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <div className="relative w-full flex flex-col md:flex-row items-start">
+    <div className="relative w-full flex flex-col lg:flex-row items-start">
       {/* Top-right Image */}
-      <div className="absolute top-0 right-0 z-0 md:block hidden">
+      <div className="absolute top-0 right-0 z-0 lg:block hidden">
         <img
           src={topRightImage}
           alt="Top Right Image"
-          className="w-20 md:w-60 h-auto"
+          className="w-20 lg:w-60 h-auto"
         />
       </div>
       <div className="flex flex-wrap">
@@ -133,7 +133,7 @@ const AboutSection = () => {
           <img
             src={rectangleImage}
             alt="Rectangle"
-            className="md:w-[358px] w-1/2 sm:w-1/3 h-auto"
+            className="lg:w-[358px] w-1/2 sm:w-1/3 md:w-[300px] h-auto"
           />
 
           {/* Overlapping Image */}
@@ -144,21 +144,21 @@ const AboutSection = () => {
                 : overlappingImage
             }
             alt="Overlapping Image"
-            className="absolute md:left-[152px] left-1/2 top-1/2 transform -translate-y-1/2 md:-translate-y-0 md:-translate-x-0 -translate-x-1/2 md:top-[128px] md:w-[390px] w-2/3 sm:w-[60%] h-auto md:h-[499px] z-10"
+            className="absolute md:left-[152px] left-1/2 top-1/2 transform -translate-y-1/2 md:-translate-y-0 md:-translate-x-0 -translate-x-1/2 md:top-[128px] md:w-[390px] w-2/3 sm:w-[60%] h-auto lg:h-[499px] z-10"
           />
         </div>
 
         {/* Right-side Content */}
         <div
-          className="flex flex-col justify-center md:space-y-8 md:pl-64 text-justify md:px-0 px-[30px]"
+          className="flex flex-col justify-center lg:space-y-8 lg:pl-64 text-justify lg:px-0 px-[30px]"
         >
           {/* Heading */}
-          <h2 className="text-[33px] md:text-[46px] font-semibold text-center md:text-left text-[#393939] md:mt-0 mt-[15px] md:mb-0 mb-3">
+          <h2 className="text-[33px] lg:text-[46px] font-semibold text-center lg:text-left text-[#393939] lg:mt-0 mt-[15px] lg:mb-0 mb-3">
             About <span className="text-[#E2761B]"> Us</span>
           </h2>
 
           {/* Description */}
-          <p className="md:text-base text-[13px] open-sans font-medium text-[#9F9F9F] max-w-[619px] ">
+          <p className="lg:text-base text-[13px] open-sans font-medium text-[#9F9F9F] max-w-[619px] ">
             Saket Enterprises is a leading name in the furniture and wood
             industry, known for delivering high quality Plywood, Hardware,
             Household furniture, Bastar Art, and Artifacts. Founded by Saket
@@ -166,7 +166,7 @@ const AboutSection = () => {
             with modern techniques, the company has built a reputation for
             excellence and innovation.
           </p>
-          <p className="md:text-base text-[13px] open-sans font-medium text-[#9F9F9F] max-w-[619px]">
+          <p className="lg:text-base text-[13px] open-sans font-medium text-[#9F9F9F] max-w-[619px]">
             Our dedication to quality and design has earned us the trust of
             customers looking for unique and durable solutions for their homes
             and businesses!

@@ -6,17 +6,23 @@ import AboutUsPageComp3 from "../components/AboutUsPageComp3";
 import AboutUsPageComp4 from "../components/AboutUsPageComp4";
 import BrochureCard from "../components/BrochureCard";
 import AboutUsPageComp4Mobile from "../components/AboutUsPageComp4Mobile";
+import AboutUsPageComp2Tablet from "../components/AboutUsPageComp2Tablet";
 
 const About = () => {
   return (
     <>
       <AboutUsPageComp1 />
+      <div className="hidden lg:block">
       <AboutUsPageComp2 />
+      </div>
+      <div className="lg:hidden">
+      <AboutUsPageComp2Tablet/>
+      </div>
       <AboutUsPageComp3 />
-      <div className="md:block hidden">
+      <div className="lg:block hidden">
         <AboutUsPageComp4 />
       </div>
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <AboutUsPageComp4Mobile />
       </div>
       <WhyChooseUs />

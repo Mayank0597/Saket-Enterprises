@@ -11,6 +11,7 @@ import "./assets/css/fonts.css";
 import Projects from "./pages/Projects";
 import ScrollToTop from "./components/ScrollToTop";
 import TermsAndCondition from "./pages/TermsAndCondition";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/terms" element={<TermsAndCondition />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
       </Routes>
       {/* <BrochureCard /> */}
       <Footer />

@@ -149,7 +149,7 @@ const AboutUsPageComp2 = () => {
         <img
           src={imageSrc}
           alt="About Us"
-          className="h-auto md:h-auto w-full md:w-[595px] object-cover rounded-lg"
+          className="h-auto lg:h-auto w-full lg:w-[595px] object-cover rounded-lg"
         />
 
         {/* Text Section */}

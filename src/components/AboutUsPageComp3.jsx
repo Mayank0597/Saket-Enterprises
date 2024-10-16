@@ -69,20 +69,20 @@ const AboutUsPageComp3 = () => {
         minWidth: "100%",
       }}
     >
-      <div className="relative w-full md:h-[506px] h-[854px]">
+      <div className="relative w-full lg:h-[506px] h-[854px]">
         {/* Full-width background image */}
         {/* <img src={backgroundImage} alt="Background" className="w-full h-full" /> */}
 
         {/* Overlaid sections */}
-        <div className="absolute top-0 flex items-center h-full justify-center w-full text-white  md:px-20">
+        <div className="absolute top-0 flex items-center h-full justify-center w-full text-white  lg:px-20">
           {/* Section Container */}
           <div className="flex flex-wrap justify-between w-full items-center">
             {/* Section 1 */}
-            <div className="flex flex-col justify-center items-start px-[57px] md:px-4 py-6 md:py-0 md:max-w-[337px] ">
-              <h2 className="text-[33px] md:text-[46px] font-semibold mb-3">
+            <div className="flex flex-col justify-center items-start px-[57px] lg:px-4 py-6 lg:py-0 lg:max-w-[337px] ">
+              <h2 className="text-[33px] lg:text-[46px] font-semibold mb-3">
                 Our <span className="text-[#E2761B]">Mission</span>
               </h2>
-              <p className="text-sm md:text-base text-justify open-sans md:font-medium font-normal text-[#CECECE]">
+              <p className="text-sm lg:text-base text-justify open-sans lg:font-medium font-normal text-[#CECECE]">
                 At Saket Enterprises, Our mission is to provide our customers
                 with high-quality plywood, hardware, stylish furniture and
                 artefacts. We aim to create pieces that enhance your living
@@ -94,14 +94,14 @@ const AboutUsPageComp3 = () => {
             <div className="hidden lg:block w-[1px] h-[80px] bg-[#9A9999]"></div>
 
             {/* Horizontal line */}
-            <hr className="md:hidden border-[#464646] h-[1px] w-full mx-12 my-8" />
+            <hr className="lg:hidden border-[#464646] h-[1px] w-full mx-12 my-8" />
 
             {/* Section 2 */}
-            <div className="flex flex-col justify-center items-start px-[57px] md:px-4 py-6 md:py-0 md:max-w-[337px] ">
-              <h2 className="text-[33px] md:text-[46px] font-semibold mb-3">
+            <div className="flex flex-col justify-center items-start px-[57px] lg:px-4 py-6 lg:py-0 lg:max-w-[337px] ">
+              <h2 className="text-[33px] lg:text-[46px] font-semibold mb-3">
                 Our <span className="text-[#E2761B]">Vision</span>
               </h2>
-              <p className="text-sm md:text-base text-justify open-sans md:font-medium text-[#CECECE] font-normal">
+              <p className="text-sm lg:text-base text-justify open-sans lg:font-medium text-[#CECECE] font-normal">
                 We envision a world where every home and workspace reflects
                 individuality and elegance. By merging traditional craftsmanship
                 with modern design, we aspire to become a global leader in the
@@ -110,16 +110,16 @@ const AboutUsPageComp3 = () => {
             </div>
 
             {/* Vertical Line */}
-            <div className="hidden md:block w-[1px] h-[80px] bg-[#9A9999]"></div>
+            <div className="hidden lg:block w-[1px] h-[80px] bg-[#9A9999]"></div>
 
             {/* Horizontal line */}
-            <hr className="md:hidden border-[#464646] h-[1px] w-full mx-12 my-8" />
+            <hr className="lg:hidden border-[#464646] h-[1px] w-full mx-12 my-8" />
             {/* Section 3 */}
-            <div className="flex flex-col justify-center items-start px-[57px] md:px-4 py-6 md:py-0 md:max-w-[337px] ">
-              <h2 className="text-[33px] md:text-[46px] font-semibold mb-3">
+            <div className="flex flex-col justify-center items-start px-[57px] lg:px-4 py-6 lg:py-0 lg:max-w-[337px] ">
+              <h2 className="text-[33px] lg:text-[46px] font-semibold mb-3">
                 Our <span className="text-[#E2761B]">Values</span>
               </h2>
-              <p className="text-sm md:text-base text-justify open-sans md:font-medium font-normal text-[#CECECE]">
+              <p className="text-sm lg:text-base text-justify open-sans lg:font-medium font-normal text-[#CECECE]">
                 At Saket Enterprises, we value integrity, quality, and customer
                 satisfaction. We believe in building lasting relationships with
                 our clients through honesty, excellence, and a commitment to
