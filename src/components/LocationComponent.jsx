@@ -2,7 +2,7 @@ import React from "react";
 
 const LocationComponent = () => {
   return (
-    <div className="w-full h-[400px] lg:h-[528px] mt-10 mb-10">
+    <div className="w-full h-[400px] lg:h-[528px] lg:mt-10 lg:mb-10">
       {/* Full-width map container */}
       <div className="relative w-full h-full">
         <iframe
