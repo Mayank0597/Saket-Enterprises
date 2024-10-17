@@ -132,12 +132,17 @@
 
 // export default AboutUsPageComp2;
 
-import React from "react";
+import React, { useEffect } from "react";
 import image1 from "/src/assets/Optimize Image/close-up-details-wood-surface15-ezgif.com-optiwebp.webp";
 import image2 from "/src/assets/Optimize Image/close-up-details-wood-surface19-ezgif.com-optiwebp.webp";
 import image3 from "/src/assets/Optimize Image/close-up-details-wood-surface110-ezgif.com-optiwebp.webp";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const AboutUsPageComp2 = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   const AboutUsSection = ({ imageSrc, heading, paragraph, imageOnLeft }) => {
     return (
       <div
@@ -150,6 +155,7 @@ const AboutUsPageComp2 = () => {
           src={imageSrc}
           alt="About Us"
           className="h-auto lg:h-auto w-full lg:w-[595px] object-cover rounded-lg"
+          // data-aos="flip-left"
         />
 
         {/* Text Section */}

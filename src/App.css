@@ -31,7 +31,7 @@
   height: 100%;
   top: 0;
   right: 0;
-  background-color:brown;
+  background-color:white;
   border-radius: 1px;
   -webkit-transition: .3s;
   transition: .3s;
@@ -43,6 +43,37 @@
 }
 
 .btn-animation:hover:after {
+  left: 0;
+  width: 100%;
+}
+
+
+/* btn-animation1 */
+.btn-animation1 {
+  position: relative;
+  z-index: 1;
+  overflow: hidden
+}
+
+.btn-animation1:after {
+  position: absolute;
+  content: '';
+  width: 0%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color:#E9E9E9;
+  border-radius: 1px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  z-index: -1;
+}
+
+.btn-animation1:hover {
+  color: #000!important;
+}
+
+.btn-animation1:hover:after {
   left: 0;
   width: 100%;
 }

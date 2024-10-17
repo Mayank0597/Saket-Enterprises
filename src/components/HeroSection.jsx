@@ -15,7 +15,7 @@ const HeroSection = () => {
     navigate("/contact");
   };
   return (
-    <section className="relative w-full h-full py-20">
+    <section className="relative w-full h-full pt-24 pb-24 md:pt-32 md:pb-20">
       {/* Background Image */}
       <div
         className={`absolute inset-0 bg-cover z-0 bg-no-repeat`}

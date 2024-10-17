@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import image1 from "/src/assets/Optimize Image/Frame5312-ezgif.com-optiwebp.webp";
 import image2 from "/src/assets/Optimize Image/Frame5313-ezgif.com-optiwebp.webp";
 import image3 from "/src/assets/Optimize Image/close-up-details-wood-surface14-ezgif.com-png-to-webp-converter.webp";
@@ -18,8 +18,13 @@ import bgImage2 from "/src/assets/map_furniture-store (3).png";
 import bgImage3 from "/src/assets/Group.png";
 import bgImage4 from "/src/assets/iconoir_sofa (3).png";
 import bgImage5 from "/src/assets/mynaui_lamp (2).png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ServicePage = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   const Section = ({ imageSrc, heading, paragraph, imageOnLeft }) => {
     return (
       <div className="flex  px-0 z-10">
@@ -31,7 +36,9 @@ const ServicePage = () => {
               <div className="md:absolute relative lg:w-[390px] w-[170px] h-full bg-[#D9D9D9] -z-50"></div>
               <div class="flex justify-center items-center h-full gap-16 flex-col md:flex-row">
                 <div class="w-[240px] lg:w-4/12">
-                  <img src={imageSrc} alt="Service" className="" />
+                  <img src={imageSrc} alt="Service" className="" 
+                  // data-aos="flip-left"
+                   />
                 </div>
                 <div class="w-full md:w-2/5 lg:w-5/12">
                   <div className="flex flex-col">
@@ -67,7 +74,9 @@ const ServicePage = () => {
                 </div>
                 {/* Image on the right side */}
                 <div className="w-[240px] lg:w-4/12">
-                  <img src={imageSrc} alt="Service" className="" />
+                  <img src={imageSrc} alt="Service" className="" 
+                  // data-aos="flip-right"
+                   />
                 </div>
               </div>
             </div>

@@ -3,6 +3,7 @@ import sampleImage from "/src/assets/Optimize Image/Frame1859-ezgif.com-optiwebp
 import mobileImage from "/src/assets/Optimize Image/Frame18591-ezgif.com-png-to-webp-converter.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const InspirationSection = () => {
   useEffect(() => {
@@ -21,9 +22,11 @@ const InspirationSection = () => {
         <p className="text-[19px] md:text-2xl open-sans text-[#808080] mb-9 font-medium">
           Visit our Website!
         </p>
-        <button className="bg-[#E2761B] text-white px-6 py-3 btn-animation rounded transition duration-300 w-[154px]">
-          View Website
-        </button>
+        <Link to="https://houseofbastar.com/" target="blank">
+          <button className="bg-[#E2761B] text-white px-6 py-3 btn-animation rounded transition duration-300 w-[154px]">
+            View Website
+          </button>
+        </Link>
       </div>
 
       {/* Image Section */}

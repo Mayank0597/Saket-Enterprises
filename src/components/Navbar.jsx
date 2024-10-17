@@ -87,11 +87,13 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <nav className="bg-white shadow-md">
+    <nav className="bg-white shadow-md fixed top-0 w-full z-50">
       <div className="container mx-auto px-4 md:px-16 flex justify-between items-center py-4">
         {/* Logo */}
         <div className="text-xl font-bold">
-          <img src={Logo} alt="Company Logo" className="w-[145px]" />
+          <NavLink to="/">
+            <img src={Logo} alt="Company Logo" className="w-[145px]" />
+          </NavLink>
         </div>
 
         {/* Hamburger Menu Icon for small screens */}

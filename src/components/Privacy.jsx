@@ -156,64 +156,60 @@ const Privacy = () => {
     //     </ul>
     //   </div>
     // </div>
-    <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 md:px-8 py-8">
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center sm:text-left">
-        Privacy Policy
+    <div className="max-w-screen-2xl mx-auto px-7 sm:px-6 md:px-16 py-24 text-justify">
+      <h1 className="text-[33px] sm:text-3xl md:text-4xl font-bold text-[#393939] mb-4 text-left">
+        Privacy Policy 
       </h1>
 
-      <p className="text-gray-700 mb-4 text-base sm:text-lg">
+      <p className="text-[#969494] mb-4 text-base sm:text-lg">
         This Privacy Policy outlines the policies and procedures of Saket
         Enterprises regarding the collection, use, and disclosure of your
         information when you use our services. It also explains your privacy
         rights and how the law protects you.
       </p>
 
-      <p className="text-gray-700 mb-4 text-base sm:text-lg">
+      <p className="text-[#969494] mb-4 text-base sm:text-lg">
         By using our services, you agree to the collection and use of
         information by this policy. We use your data to provide and improve our
         services. This Privacy Policy was created to ensure transparency and
         protect your privacy.
       </p>
 
-      <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-800 mb-4">
+      <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-[#393939] mt-12">
         Collecting and Using Your Data
       </h2>
 
-      <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-2">
+      <h3 className="text-[16px] sm:text-xl md:text-2xl font-semibold text-[#393939] mb-6">
         Types of Data Collected
       </h3>
 
-      <h4 className="text-base sm:text-lg font-semibold text-gray-800 mb-2">
-        Personal Data
+      <h4 className="text-[19px] sm:text-lg font-semibold text-[#393939]">
+        1. Personal Data
       </h4>
-      <p className="text-gray-700 mb-4 text-base sm:text-lg">
+      <p className="text-[#8C8A8A] mb-4 text-base sm:text-lg">
         While using our service, we may ask you to provide certain personally
         identifiable information, which may include but is not limited to:
+        <br />
+        Email address First and last name Phone number Usage data
       </p>
-      <ul className="list-disc list-inside text-gray-700 mb-4 text-base sm:text-lg">
-        <li>Email address</li>
-        <li>First and last name</li>
-        <li>Phone number</li>
-        <li>Usage data</li>
-      </ul>
 
-      <h4 className="text-base sm:text-lg font-semibold text-gray-800 mb-2">
-        Usage Data
+      <h4 className="text-[19px] sm:text-lg font-semibold text-[#393939]">
+        2. Usage Data
       </h4>
-      <p className="text-gray-700 mb-4 text-base sm:text-lg">
+      <p className="text-[#8C8A8A] mb-4 text-base sm:text-lg">
         Usage data is collected automatically when using the service. It may
         include information such as your device’s IP address, browser type,
         browser version, the pages you visit, the time and date of your visit,
         time spent on those pages, and other diagnostic data.
       </p>
 
-      <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-2">
+      <h3 className="text-[19px] sm:text-xl md:text-2xl font-semibold text-[#393939] mb-2 mt-12">
         Use of Your Data
       </h3>
-      <p className="text-gray-700 mb-4 text-base sm:text-lg">
+      <p className="text-[#393939] mb-4 text-base sm:text-lg">
         Saket Enterprises may use your data for the following purposes:
       </p>
-      <ul className="list-disc list-inside text-gray-700 mb-4 text-base sm:text-lg">
+      <ul className="list-disc px-10 text-[#8C8A8A] mb-4 text-base sm:text-lg">
         <li>To provide and maintain our services</li>
         <li>To manage your account and registration as a user</li>
         <li>To fulfil contracts for products you have purchased from us</li>
@@ -222,109 +218,109 @@ const Privacy = () => {
         <li>To evaluate the effectiveness of our marketing campaigns</li>
       </ul>
 
-      <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-2">
+      <h3 className="text-[19px] sm:text-xl md:text-2xl font-semibold text-[#393939] mt-12">
         Sharing Your Data
       </h3>
-      <p className="text-gray-700 mb-4 text-base sm:text-lg">
+      <p className="text-[#393939] mb-4 text-base sm:text-lg">
         We may share your data with:
       </p>
-      <ul className="list-disc list-inside text-gray-700 mb-4 text-base sm:text-lg">
-        <li>Service Providers to help us analyze and improve our services</li>
-        <li>Affiliates under strict compliance with this privacy policy</li>
-        <li>Business Partners to offer products or services relevant to you</li>
-        <li>
+      <ol className="list-decimal px-10 mb-12 text-base sm:text-lg" type="1">
+        <li className="text-[#8C8A8A]">Service Providers to help us analyze and improve our services</li>
+        <li className="text-[#8C8A8A]">Affiliates under strict compliance with this privacy policy</li>
+        <li className="text-[#8C8A8A]">Business Partners to offer products or services relevant to you</li>
+        <li className="text-[#8C8A8A]">
           Legal Obligations when required by law or for the protection of Saket
           Enterprises
-        </li>
-      </ul>
+        </li >
+      </ol>
 
-      <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-2">
+      <h3 className="text-[19px] sm:text-xl md:text-2xl font-semibold text-[#393939]">
         Retention of Your Data
       </h3>
-      <p className="text-gray-700 mb-4 text-base sm:text-lg">
+      <p className="text-[#8C8A8A] mb-12 text-base sm:text-lg">
         We will retain your data only as long as necessary to fulfil the
         purposes outlined in this policy. Usage data, however, may be kept for a
         shorter period unless required for security or legal purposes.
       </p>
 
-      <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-2">
+      <h3 className="text-[19px] sm:text-xl md:text-2xl font-semibold text-[#393939]">
         Transfer of Your Data
       </h3>
-      <p className="text-gray-700 mb-4 text-base sm:text-lg">
+      <p className="text-[#8C8A8A] mb-12 text-base sm:text-lg">
         Your data may be processed outside your home country, and by using our
         services, you consent to the transfer of your data. We ensure that your
         data is securely handled, adhering to data protection laws.
       </p>
 
-      <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-2">
+      <h3 className="text-[19px] sm:text-xl md:text-2xl font-semibold text-[#393939]">
         Deleting Your Data
       </h3>
-      <p className="text-gray-700 mb-4 text-base sm:text-lg">
+      <p className="text-[#8C8A8A] mb-12 text-base sm:text-lg">
         You have the right to request the deletion of your data. You may update,
         amend, or delete your information at any time through your account
         settings or by contacting us.
       </p>
 
-      <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-2">
+      <h3 className="text-[19PX] sm:text-xl md:text-2xl font-semibold text-[#393939]">
         Disclosure of Your Data
       </h3>
-      <p className="text-gray-700 mb-4 text-base sm:text-lg">
+      <p className="text-[#8C8A8A] mb-4 text-base sm:text-lg">
         In certain situations, we may disclose your data in the following
         situations:
       </p>
-      <ul className="list-disc list-inside text-gray-700 mb-4 text-base sm:text-lg">
-        <li>To comply with legal obligations</li>
-        <li>To protect the rights and property of Saket Enterprises</li>
-        <li>To prevent or investigate wrongdoing related to our services</li>
+      <ul className="list-disc px-10 mb-12 text-base sm:text-lg">
+        <li className="text-[#8C8A8A]">To comply with legal obligations</li>
+        <li className="text-[#8C8A8A]">To protect the rights and property of Saket Enterprises</li>
+        <li className="text-[#8C8A8A]">To prevent or investigate wrongdoing related to our services</li>
       </ul>
 
-      <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-2">
+      <h3 className="text-[19PX] sm:text-xl md:text-2xl font-semibold text-[#393939]">
         Security of Your Data
       </h3>
-      <p className="text-gray-700 mb-4 text-base sm:text-lg">
+      <p className="text-[#8C8A8A] mb-12 text-base sm:text-lg">
         We take appropriate measures to safeguard your data. However, no method
         of data transmission over the Internet is 100% secure, and we cannot
         guarantee absolute security.
       </p>
 
-      <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-2">
+      <h3 className="text-[19PX] sm:text-xl md:text-2xl font-semibold text-[#393939]">
         Children's Privacy
       </h3>
-      <p className="text-gray-700 mb-4 text-base sm:text-lg">
+      <p className="text-[#8C8A8A] mb-12 text-base sm:text-lg">
         Our services are not intended for individuals under the age of 13. We do
         not knowingly collect data from children under 13. If you believe your
         child has provided us with personal data, please contact us so we can
         take the necessary steps to delete the information.
       </p>
 
-      <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-2">
+      <h3 className="text-[19PX] sm:text-xl md:text-2xl font-semibold text-[#393939]">
         Links to Other Websites
       </h3>
-      <p className="text-gray-700 mb-4 text-base sm:text-lg">
+      <p className="text-[#8C8A8A] mb-12 text-base sm:text-lg">
         Our website may contain links to third-party websites that are not
         operated by us. We recommend reviewing the privacy policies of any such
         sites, as we are not responsible for their content or privacy practices.
       </p>
 
-      <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-2">
+      <h3 className="text-[19PX] sm:text-xl md:text-2xl font-semibold text-[#393939]">
         Changes to This Privacy Policy
       </h3>
-      <p className="text-gray-700 mb-4 text-base sm:text-lg">
+      <p className="text-[#8C8A8A] mb-12 text-base sm:text-lg">
         We may update this Privacy Policy occasionally. We will notify you of
         changes by posting the updated policy on this page and updating the
         "Last updated" date at the top.
       </p>
 
-      <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-2">
+      <h3 className="text-[19PX] sm:text-xl md:text-2xl font-semibold text-[#393939]">
         Contact Us
       </h3>
-      <p className="text-gray-700 mb-4 text-base sm:text-lg">
+      <p className="text-[#8C8A8A] text-base sm:text-lg">
         If you have any questions about this Privacy Policy, you can contact us:
       </p>
-      <ul className="list-disc list-inside text-gray-700 mb-4 text-base sm:text-lg">
-        <li>By email</li>
-        <li>By visiting this page on our website</li>
-        <li>By phone number</li>
+      <ul className="list-disc px-10 text-base sm:text-lg">
+        <li className="text-[#8C8A8A]">By email</li>
+        <li className="text-[#8C8A8A]">By visiting this page on our website</li>
+        <li className="text-[#8C8A8A]">By phone number</li>
       </ul>
     </div>
   );

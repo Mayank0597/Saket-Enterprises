@@ -9,7 +9,7 @@ const AboutUsPageComp1 = () => {
       <img
         src={window.innerWidth < 768 ? mobileimage : image}
         alt="Background"
-        className="w-full h-full object-cover"
+        className="w-full h-full object-cover py-[69px]"
       />
 
       {/* Centered heading */}

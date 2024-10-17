@@ -9,7 +9,7 @@ const ContactUsPageComp1 = () => {
       <img
         src={window.innerWidth < 768 ? mobileImage : image}
         alt="Background"
-        className="w-full h-auto"
+        className="w-full h-auto py-[69px]"
       />
 
       {/* Centered heading */}
