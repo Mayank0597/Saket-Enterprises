@@ -133,7 +133,7 @@ const AboutSection = () => {
           <img
             src={rectangleImage}
             alt="Rectangle"
-            className="lg:w-[358px] w-1/2 sm:w-1/3 md:w-[300px] h-auto"
+            className="lg:w-[358px] w-1/2 sm:w-1/2 md:w-[300px] h-auto"
           />
 
           {/* Overlapping Image */}

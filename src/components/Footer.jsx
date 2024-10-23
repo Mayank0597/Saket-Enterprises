@@ -353,15 +353,15 @@ const Footer = () => {
   return (
     <footer className="bg-[#1C1C1C] text-white pt-[100px] md:pb-8 md:px-4">
       {/* Contact Section */}
-      <div className="flex flex-col md:flex-row md:flex-wrap md:gap-5 justify-between items-center space-y-4 md:space-y-0 md:px-16">
+      {/* <div className="flex flex-col md:flex-row md:flex-wrap md:gap-5 justify-between items-center space-y-4 md:space-y-0 md:px-16">
         <h2 className="text-[19px] md:text-3xl font-semibold text-[#FFF]">
           Want to customize your product?
           <br />
           <span className="text-[#E2761B]">Contact us Now!</span>
-        </h2>
+        </h2> */}
 
         {/* Contact form */}
-        <div className="flex flex-col md:flex-row items-center w-full md:w-auto md:bg-[#5c5c5c] rounded-[4px] md:px-0 px-[30px] md:space-y-0 space-y-5">
+        {/* <div className="flex flex-col md:flex-row items-center w-full md:w-auto md:bg-[#5c5c5c] rounded-[4px] md:px-0 px-[30px] md:space-y-0 space-y-5">
           <input
             type="text"
             placeholder="Email or Phone no."
@@ -371,10 +371,10 @@ const Footer = () => {
             Submit
           </button>
         </div>
-      </div>
+      </div> */}
 
       {/* Horizontal Line */}
-      <div className="md:my-6 mt-[30px] mb-[50px] border-t md:mx-[60px] mx-[30px] border-[#393939]"></div>
+      {/* <div className="md:my-6 mt-[30px] mb-[50px] border-t md:mx-[60px] mx-[30px] border-[#393939]"></div> */}
 
       {/* Footer Content */}
       <div className="flex flex-col md:flex-row md:flex-wrap justify-between space-y-[60px] md:space-y-0 md:px-16 px-[30px] md:gap-5">

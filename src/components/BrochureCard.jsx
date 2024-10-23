@@ -45,7 +45,7 @@ import React from "react";
 import backgroundImage from "/src/assets/Optimize Image/Brochure1-ezgif.com-png-to-webp-converter.webp";
 import MobileBackgroundImage from "/src/assets/Brochure Mobile.png";
 import { Link } from "react-router-dom";
-import brochurePDF from "/src/assets/Brochure pdf/AI.pdf";
+import brochurePDF from "/src/assets/Brochure pdf/Saket Enterprises_Brochure.pdf";
 
 const BrochureCard = () => {
   return (
@@ -81,7 +81,11 @@ const BrochureCard = () => {
         </p>
 
         {/* Download Button */}
-        <Link to={brochurePDF} download="AI.pdf" target="blank">
+        <Link
+          to={brochurePDF}
+          download="Saket Enterprises_Brochure.pdf"
+          target="blank"
+        >
           <button className="mt-6 bg-[#E2761B] text-white py-2 px-4 md:px-6 lg:px-8 rounded btn-animation">
             Download
           </button>

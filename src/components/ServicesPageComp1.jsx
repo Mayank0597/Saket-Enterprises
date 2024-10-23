@@ -9,7 +9,7 @@ const ServicesPageComp1 = () => {
       <img
         src={window.innerWidth < 768 ? mobileimage : image}
         alt="Background"
-        className="w-full h-full object-cover py-[69px]"
+        className="w-full h-full object-cover pt-[69px]"
       />
 
       {/* Centered heading */}
