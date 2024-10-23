@@ -5,10 +5,10 @@ import HomePage from "./pages/HomePage";
 import Services from "./pages/Services";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import BrochureCard from "./components/BrochureCard";
+// import BrochureCard from "./components/BrochureCard";
 import Footer from "./components/Footer";
 import "./assets/css/fonts.css";
-import Projects from "./pages/Projects";
+// import Projects from "./pages/Projects";
 import ScrollToTop from "./components/ScrollToTop";
 import TermsAndCondition from "./pages/TermsAndCondition";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -21,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/projects" element={<Projects />} />
+        {/* <Route path="/projects" element={<Projects />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/terms" element={<TermsAndCondition />} />

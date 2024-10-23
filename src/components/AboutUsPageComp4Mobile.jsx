@@ -1,5 +1,5 @@
 import React from "react";
-import imageSrc from "/src/assets/saket-tiwari 1.png";
+import imageSrc from "/src/assets/Optimize Image/saket.webp";
 
 const AboutUsPageComp4Mobile = () => {
   return (

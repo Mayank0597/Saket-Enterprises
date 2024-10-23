@@ -552,21 +552,21 @@ const ContactForm = () => {
     }
 
     // Proceed with email sending logic...
-    const transporter = nodemailer.createTransport({
-      host: "smtp.google.com",
-      port: 587,
-      secure: false,
-      auth: {
-        user: "support@samparkinfoways.com",
-        pass: "crzx anqq hvew noou",
-      },
-    });
+    // const transporter = nodemailer.createTransport({
+    //   host: "smtp.google.com",
+    //   port: 587,
+    //   secure: false,
+    //   auth: {
+    //     user: "abc@g.com",
+    //     pass: "hngcfmh",
+    //   },
+    // });
 
-    const mailOptions = {
-      from: "support@samparkinfoways.com",
-      to: "sampark@samparkinfoways.com",
-      subject: "Hello from ReactJS",
-      text: Cname,
+    // const mailOptions = {
+    //   from: "abc@g.com",
+    //   to: "abc@g.com",
+    //   subject: "Hello from ReactJS",
+    //   text: Cname,
       // attachments: attachments.map((file) => ({
       //   filename: file.name,
       //   content: file.data,
