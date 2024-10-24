@@ -148,7 +148,7 @@ const AboutUsPageComp2 = () => {
       <div
         className={`flex flex-col md:${
           imageOnLeft ? "flex-row" : "flex-row-reverse"
-        } w-full max-w-screen-xl mx-auto mb-10 md:my-20 md:px-0.5 bg-[#F3F2F2] rounded-lg`}
+        } w-full max-w-screen-xl mx-auto mb-16 md:px-0.5 bg-[#F3F2F2] rounded-lg`}
       >
         {/* Image */}
         <img
@@ -172,7 +172,7 @@ const AboutUsPageComp2 = () => {
   };
 
   return (
-    <div className="w-full pt-10">
+    <div className="w-full">
       {/* First Section: Image on the Left for Desktop */}
       <AboutUsSection
         imageSrc={image1}

@@ -36,9 +36,12 @@ const ServicePage = () => {
               <div className="md:absolute relative lg:w-[390px] w-[170px] h-full bg-[#D9D9D9] -z-50"></div>
               <div class="flex justify-center items-center h-full gap-16 flex-col md:flex-row">
                 <div class="w-[240px] lg:w-4/12">
-                  <img src={imageSrc} alt="Service" className="" 
-                  // data-aos="flip-left"
-                   />
+                  <img
+                    src={imageSrc}
+                    alt="Service"
+                    className=""
+                    // data-aos="flip-left"
+                  />
                 </div>
                 <div class="w-full md:w-2/5 lg:w-5/12">
                   <div className="flex flex-col">
@@ -74,9 +77,12 @@ const ServicePage = () => {
                 </div>
                 {/* Image on the right side */}
                 <div className="w-[240px] lg:w-4/12">
-                  <img src={imageSrc} alt="Service" className="" 
-                  // data-aos="flip-right"
-                   />
+                  <img
+                    src={imageSrc}
+                    alt="Service"
+                    className=""
+                    // data-aos="flip-right"
+                  />
                 </div>
               </div>
             </div>
@@ -106,27 +112,27 @@ const ServicePage = () => {
         src={bgImage4}
         alt="Background 4"
         className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
-        style={{ right: "550px", top: "900px" }}
+        style={{ right: "550px", top: "400px" }}
       />
       <img
         src={bgImage1}
         alt="Background 5"
         className="absolute z-0 w-[132px] h-[159px] hidden xl:block"
-        style={{ left: "30%", top: "500px" }}
+        style={{ left: "30%", top: "700px" }}
       />
 
       <img
         src={bgImage2}
         alt="Background 2"
         className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
-        style={{ right: "60%", top: "1200px" }}
+        style={{ right: "90%", top: "1000px" }}
       />
 
       <img
-        src={bgImage1}
+        src={bgImage4}
         alt="Background 1"
-        className="absolute z-0 w-[132px] h-[159px] hidden xl:block"
-        style={{ left: "1100px", top: "1400px" }}
+        className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
+        style={{ left: "600px", top: "1100px" }}
       />
       <img
         src={bgImage4}
@@ -149,10 +155,10 @@ const ServicePage = () => {
       />
 
       <img
-        src={bgImage1}
+        src={bgImage2}
         alt="Background 2"
-        className="absolute z-0 w-[132px] h-[159px] hidden xl:block"
-        style={{ right: "1200px", top: "2400px" }}
+        className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
+        style={{ right: "1000px", top: "2400px" }}
       />
 
       <img
@@ -162,10 +168,10 @@ const ServicePage = () => {
         style={{ right: "650px", top: "3000px" }}
       />
       <img
-        src={bgImage1}
+        src={bgImage4}
         alt="Background 1"
-        className="absolute z-0 w-[132px] h-[159px] hidden xl:block"
-        style={{ left: "850px", top: "2300px" }}
+        className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
+        style={{ left: "750px", top: "2300px" }}
       />
       <img
         src={bgImage2}
@@ -184,7 +190,7 @@ const ServicePage = () => {
         src={bgImage2}
         alt="Background 2"
         className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
-        style={{ right: "60%", top: "1200px" }}
+        style={{ right: "5%", top: "1700px" }}
       />
       <img
         src={bgImage4}
@@ -200,6 +206,12 @@ const ServicePage = () => {
         style={{ left: "90%", top: "3000px" }}
       />
       <img
+        src={bgImage1}
+        alt="Background 5"
+        className="absolute z-0 w-[132px] h-[159px] hidden xl:block"
+        style={{ left: "2%", top: "3600px" }}
+      />
+      <img
         src={bgImage4}
         alt="Background 1"
         className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
@@ -213,10 +225,23 @@ const ServicePage = () => {
       />
 
       <img
+        src={bgImage1}
+        alt="Background 5"
+        className="absolute z-0 w-[132px] h-[159px] hidden xl:block"
+        style={{ left: "60%", top: "4250px" }}
+      />
+
+      <img
         src={bgImage4}
         alt="Background 4"
         className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
         style={{ right: "850px", top: "4400px" }}
+      />
+      <img
+        src={bgImage4}
+        alt="Background 4"
+        className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
+        style={{ right: "1350px", top: "4900px" }}
       />
       <img
         src={bgImage1}
@@ -224,12 +249,25 @@ const ServicePage = () => {
         className="absolute z-0 w-[132px] h-[159px] hidden xl:block"
         style={{ left: "30%", top: "5000px" }}
       />
+      <img
+        src={bgImage2}
+        alt="Background 2"
+        className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
+        style={{ right: "60%", top: "4600px" }}
+      />
 
       <img
         src={bgImage2}
         alt="Background 2"
         className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
         style={{ right: "60%", top: "5700px" }}
+      />
+
+      <img
+        src={bgImage4}
+        alt="Background 4"
+        className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
+        style={{ right: "600px", top: "5200px" }}
       />
 
       <img
@@ -256,6 +294,13 @@ const ServicePage = () => {
         src={bgImage2}
         alt="Background 2"
         className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
+        style={{ right: "1400px", top: "6100px" }}
+      />
+
+      <img
+        src={bgImage2}
+        alt="Background 2"
+        className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
         style={{ right: "100px", top: "6500px" }}
       />
 
@@ -263,7 +308,13 @@ const ServicePage = () => {
         src={bgImage4}
         alt="Background 4"
         className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
-        style={{ right: "850px", top: "6900px" }}
+        style={{ right: "650px", top: "6900px" }}
+      />
+      <img
+        src={bgImage1}
+        alt="Background 1"
+        className="absolute z-0 w-[132px] h-[159px] hidden xl:block"
+        style={{ left: "850px", top: "6500px" }}
       />
       <img
         src={bgImage1}
@@ -288,13 +339,31 @@ const ServicePage = () => {
         src={bgImage2}
         alt="Background 2"
         className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
-        style={{ right: "60%", top: "8000px" }}
+        style={{ right: "90%", top: "7300px" }}
+      />
+      <img
+        src={bgImage2}
+        alt="Background 2"
+        className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
+        style={{ right: "40%", top: "8200px" }}
+      />
+      <img
+        src={bgImage4}
+        alt="Background 4"
+        className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
+        style={{ right: "100px", top: "8100px" }}
       />
       <img
         src={bgImage4}
         alt="Background 4"
         className="absolute z-0 w-[155px] h-[120px] hidden xl:block"
         style={{ right: "1200px", top: "8400px" }}
+      />
+      <img
+        src={bgImage2}
+        alt="Background 2"
+        className="absolute z-0 w-[163px] h-[123px] hidden xl:block"
+        style={{ right: "90%", top: "8700px" }}
       />
 
       <img

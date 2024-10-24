@@ -571,14 +571,14 @@ const ContactForm = () => {
       //   filename: file.name,
       //   content: file.data,
       // })),
-    };
+    // };
 
-    try {
-      await transporter.sendMail(mailOptions);
-      console.log("Email sent successfully");
-    } catch (error) {
-      console.error("Error sending email:", error);
-    }
+    // try {
+    //   await transporter.sendMail(mailOptions);
+    //   console.log("Email sent successfully");
+    // } catch (error) {
+    //   console.error("Error sending email:", error);
+    // }
   };
 
   return (
@@ -676,7 +676,7 @@ const ContactForm = () => {
           Send Message
         </button> */}
       {/* </div> */}
-      <div className="flex flex-col items-start gap-[20px] lg:gap-[61px] lg:px-0 px-7 z-[99999999999] max-w-[407px]">
+      <div className="flex flex-col items-start gap-[20px] lg:gap-[61px] lg:px-0 px-7 z-[9] max-w-[407px]">
         {/* Section 1: Address */}
         <div className="flex flex-row items-start">
           <img

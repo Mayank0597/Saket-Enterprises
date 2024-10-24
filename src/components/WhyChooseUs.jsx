@@ -244,7 +244,7 @@ const WhyChooseUs = () => {
           <div
             className="absolute flex transform -translate-x-1/2 -translate-y-1/2"
             style={{
-              top: "-157%",
+              top: "-156%",
               left: "180%",
             }}
           >

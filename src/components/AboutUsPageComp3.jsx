@@ -91,7 +91,7 @@ const AboutUsPageComp3 = () => {
             </div>
 
             {/* Vertical Line */}
-            <div className="hidden lg:block w-[1px] h-[80px] bg-[#9A9999]"></div>
+            <div className="hidden lg:block w-[1px] h-[118px] bg-[#9A9999]"></div>
 
             {/* Horizontal line */}
             <hr className="lg:hidden border-[#464646] h-[1px] w-full mx-12 my-8" />
@@ -110,7 +110,7 @@ const AboutUsPageComp3 = () => {
             </div>
 
             {/* Vertical Line */}
-            <div className="hidden lg:block w-[1px] h-[80px] bg-[#9A9999]"></div>
+            <div className="hidden lg:block w-[1px] h-[118px] bg-[#9A9999]"></div>
 
             {/* Horizontal line */}
             <hr className="lg:hidden border-[#464646] h-[1px] w-full mx-12 my-8" />

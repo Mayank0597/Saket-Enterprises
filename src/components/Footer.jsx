@@ -351,7 +351,7 @@ import mobileCompanyLogo from "/src/assets/Group 1.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1C1C1C] text-white pt-[100px] md:pb-8 md:px-4">
+    <footer className="bg-[#1C1C1C] text-white pt-[100px] md:pb-8 md:px-16">
       {/* Contact Section */}
       {/* <div className="flex flex-col md:flex-row md:flex-wrap md:gap-5 justify-between items-center space-y-4 md:space-y-0 md:px-16">
         <h2 className="text-[19px] md:text-3xl font-semibold text-[#FFF]">
@@ -360,8 +360,8 @@ const Footer = () => {
           <span className="text-[#E2761B]">Contact us Now!</span>
         </h2> */}
 
-        {/* Contact form */}
-        {/* <div className="flex flex-col md:flex-row items-center w-full md:w-auto md:bg-[#5c5c5c] rounded-[4px] md:px-0 px-[30px] md:space-y-0 space-y-5">
+      {/* Contact form */}
+      {/* <div className="flex flex-col md:flex-row items-center w-full md:w-auto md:bg-[#5c5c5c] rounded-[4px] md:px-0 px-[30px] md:space-y-0 space-y-5">
           <input
             type="text"
             placeholder="Email or Phone no."
@@ -411,7 +411,7 @@ const Footer = () => {
         {/* Social Media */}
         <div className="flex flex-col md:items-start items-center">
           <h3 className="text-[#E2761B] text-[19px] font-semibold">
-            Follow us on:
+            Contact us on:
           </h3>
           <div className="flex space-x-4 mt-2 md:items-start items-center">
             <NavLink
@@ -502,6 +502,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <div className="w-full h-[1px] bg-[#393939] mt-[60px] hidden md:block"></div>
 
       {/* Copyright Section */}
       <div className="md:mt-8 text-center mt-[60px] md:pb-0 pb-[60px]">
