@@ -86,7 +86,7 @@ const BrochureCard = () => {
           download="Saket Enterprises_Brochure.pdf"
           target="blank"
         >
-          <button className="mt-6 bg-[#E2761B] text-white py-2 px-4 md:px-6 lg:px-8 rounded btn-animation">
+          <button className="mt-6 bg-[#E2761B] text-white py-2 px-4 md:px-6 lg:px-8 rounded btn-animation font-semibold lg:font-normal">
             Download
           </button>
         </Link>

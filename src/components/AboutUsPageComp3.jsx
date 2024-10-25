@@ -60,6 +60,7 @@ import { Parallax } from "react-parallax";
 const AboutUsPageComp3 = () => {
   return (
     <Parallax
+    className="lg:mt-0 mt-[60px]"
       bgImage={
         window.innerWidth < 768 ? MobileBackgroundImage : backgroundImage
       }

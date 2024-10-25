@@ -23,7 +23,7 @@ const InspirationSection = () => {
           Visit our Website!
         </p>
         <Link to="https://houseofbastar.com/" target="blank">
-          <button className="bg-[#E2761B] text-white px-6 py-3 btn-animation rounded transition duration-300 w-[154px]">
+          <button className="bg-[#E2761B] text-white px-6 py-3 btn-animation rounded transition duration-300 w-[154px] font-semibold lg:font-normal">
             View Website
           </button>
         </Link>

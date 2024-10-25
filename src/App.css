@@ -38,9 +38,9 @@
   z-index: -1;
 }
 
-.btn-animation:hover {
+/* .btn-animation:hover {
   color: #000!important;
-}
+} */
 
 .btn-animation:hover:after {
   left: 0;
@@ -69,13 +69,26 @@
   z-index: -1;
 }
 
-.btn-animation1:hover {
+/* .btn-animation1:hover {
   color: #000!important;
-}
+} */
 
 .btn-animation1:hover:after {
   left: 0;
   width: 100%;
 }
+
+@media only screen and (max-width: 767px){
+  .btn-animation:after{
+position: relative;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .btn-animation1:after{
+position: relative;
+  }
+}
+
 
 

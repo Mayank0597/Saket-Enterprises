@@ -196,6 +196,11 @@ import icon1 from "/src/assets/Frame 18.png";
 import icon2 from "/src/assets/Frame 16.png";
 import icon3 from "/src/assets/Frame 11.png";
 import icon4 from "/src/assets/Frame 12.png";
+import bgImage1 from "/src/assets/material-symbols-light_dresser-outline.png";
+import bgImage2 from "/src/assets/map_furniture-store (2).png";
+import bgImage3 from "/src/assets/iconoir_sofa (2).png";
+import bgImage4 from "/src/assets/Group (2).png";
+import bgImage5 from "/src/assets/mynaui_lamp (2).png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -206,6 +211,37 @@ const WhyChooseUs = () => {
 
   return (
     <div className="relative w-full bg-white md:pb-36 pb-[73px] md:pt-20 pt-[60px] flex flex-col items-center">
+      {/* Background Images */}
+      <img
+        src={bgImage1}
+        alt="Background 1"
+        className="absolute z-0 w-[132px] h-[159px] hidden lg:block"
+        style={{ left: "540px", top: "80px" }} // Position relative to the heading
+      />
+      <img
+        src={bgImage2}
+        alt="Background 2"
+        className="absolute z-0 w-[163px] h-[123px] hidden lg:block"
+        style={{ left: "1110px", top: "200px" }} // Positioned below the heading
+      />
+      <img
+        src={bgImage3}
+        alt="Background 3"
+        className="absolute z-0 w-[155px] h-[120px] hidden lg:block"
+        style={{ left: "814px", top: "45%" }} // Centered height-wise
+      />
+      <img
+        src={bgImage4}
+        alt="Background 4"
+        className="absolute z-0 w-[88px] h-[159px] hidden lg:block"
+        style={{ left: "568px", bottom: "80px" }} // Positioned at the bottom
+      />
+      <img
+        src={bgImage5}
+        alt="Background 5"
+        className="absolute z-0 w-[58px] h-[91px] hidden lg:block"
+        style={{ left: "1050px", bottom: "50px" }} // Positioned at the bottom
+      />
       {/* Heading */}
       <h2
         className="text-[33px] md:text-[46px] font-semibold text-center md:mb-40 z-10 text-[#393939]"
@@ -231,7 +267,7 @@ const WhyChooseUs = () => {
               className="md:w-full w-[265px] h-[265px] md:h-full  object-cover rounded-full absolute md:-left-10 left-2"
             />
             {/* Orange Circular Line */}
-            <div className="absolute md:w-[603px] w-[350px] md:h-[603px] h-[350px] rounded-full border-[1.708px] border-[#E2761B] z-10 md:-left-10 left-0"></div>
+            <div className="absolute md:w-[603px] w-[315px] md:h-[603px] h-[315px] rounded-full border-[1.708px] border-[#FBD1AD] z-10 md:-left-10 left-0"></div>
           </div>
         </div>
       </div>
@@ -384,8 +420,8 @@ const WhyChooseUs = () => {
             Customer-Centric Approach
           </h4>
           <p className="text-sm font-medium text-[#9F9F9F] open-sans">
-          At Saket Enterprises, Our dedicated team works closely with you to understand your needs and provide personalized solutions.
-
+            At Saket Enterprises, Our dedicated team works closely with you to
+            understand your needs and provide personalized solutions.
           </p>
         </div>
       </div>

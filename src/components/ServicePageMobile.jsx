@@ -80,7 +80,7 @@ const ServicePageMobile = () => {
   }, []);
 
   return (
-    <div className="w-full flex flex-col md:flex-row items-start mb-[80px]">
+    <div className="w-full flex flex-col md:flex-row items-start mb-[80px] mt-[-69px]">
       {/* Section 1 */}
       <div className="flex flex-wrap">
         {/* Left-side images */}

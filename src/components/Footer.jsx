@@ -351,7 +351,7 @@ import mobileCompanyLogo from "/src/assets/Group 1.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1C1C1C] text-white pt-[100px] md:pb-8 md:px-16">
+    <footer className="bg-[#1C1C1C] text-white pt-[100px] md:pb-8 md:px-16 px-5">
       {/* Contact Section */}
       {/* <div className="flex flex-col md:flex-row md:flex-wrap md:gap-5 justify-between items-center space-y-4 md:space-y-0 md:px-16">
         <h2 className="text-[19px] md:text-3xl font-semibold text-[#FFF]">
@@ -399,7 +399,7 @@ const Footer = () => {
           </div>
 
           {/* Company description */}
-          <p className="text-[#9A9A9A] open-sans font-normal text-base text-justify mt-4">
+          <p className="text-[#9A9A9A] open-sans font-normal text-base text-justify mt-6 lg:mt-4">
             Saket Enterprises is a pioneering company based in Abhanpur, Raipur,
             Chhattisgarh. It specializes in high-quality Plywood, Hardware,
             Household Furniture, Bastar Art, Artifacts and Wood. Under the
@@ -502,7 +502,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="w-full h-[1px] bg-[#393939] mt-[60px] hidden md:block"></div>
+      <div className="w-full h-[1px] bg-[#393939] mt-[60px]"></div>
 
       {/* Copyright Section */}
       <div className="md:mt-8 text-center mt-[60px] md:pb-0 pb-[60px]">

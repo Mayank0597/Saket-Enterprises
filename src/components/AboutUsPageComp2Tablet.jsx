@@ -32,7 +32,7 @@ const AboutUsPageComp2Tablet = () => {
   };
 
   return (
-    <div className="w-full pt-10">
+    <div className="w-full -mt-[69px]">
       {/* First Section: Image on the Left for Desktop */}
       <AboutUsSection
         imageSrc={image1}

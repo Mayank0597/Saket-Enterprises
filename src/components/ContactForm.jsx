@@ -479,8 +479,8 @@
 // export default ContactForm;
 
 import React, { useState } from "react";
-import logoIcon1 from "/src/assets/ion_location-outline (1).png";
-import logoIcon2 from "/src/assets/fluent_call-48-regular.png";
+import logoIcon1 from "/src/assets/ion_location-outline (6).png";
+import logoIcon2 from "/src/assets/fluent_call-48-regular (3).png";
 import logoIcon3 from "/src/assets/fluent_call-48-regular (1).png";
 import bgImage from "/src/assets/Optimize Image/Frame18902-ezgif.com-png-to-webp-converter.webp";
 // import nodemailer from "nodemailer";
@@ -682,10 +682,10 @@ const ContactForm = () => {
           <img
             src={logoIcon1}
             alt="Address Icon"
-            className="w-[20px] h-[30px] mr-4 lg:mr-5"
+            className="w-[15px] h-[22px] mr-4 lg:mr-5"
           />
           <div className="flex flex-col items-start">
-            <h3 className="text-[19px] lg:text-3xl font-semibold text-[#E2761B]">
+            <h3 className="text-[20px] lg:text-[30px] font-semibold text-[#E2761B] mt-3 mb-4" style={{lineHeight: "0"}}>
               Address
             </h3>
             <div className="flex flex-col">
@@ -693,7 +693,7 @@ const ContactForm = () => {
                 Dhamtari Road, Abhanpur, Chhattisgarh
               </p>
               <br />
-              <p className="text-base lg:text-lg font-medium lg:text-[#1C1C1C] text-[#393939] open-sans">
+              <p className="text-base lg:text-lg font-medium lg:text-[#1C1C1C] text-[#393939] open-sans -mt-2">
                 CGHB Building, Sector 27, Nawagaon Parsatti, Atal Nagar, New
                 Raipur, Raipur(C.G)
               </p>
@@ -706,10 +706,10 @@ const ContactForm = () => {
           <img
             src={logoIcon2}
             alt="Phone Icon"
-            className="w-[23px] h-[30px] mr-4 lg:mr-5"
+            className="w-[18px] h-[24px] mr-4 lg:mr-5"
           />
           <div className="flex flex-col items-start">
-            <h3 className="text-xl lg:text-3xl font-semibold text-[#E2761B]">
+            <h3 className="text-[20px] lg:text-[30px] font-semibold text-[#E2761B] mt-3 mb-4" style={{lineHeight: "0"}}>
               Phone
             </h3>
             <p className="text-base lg:text-lg font-medium lg:text-[#1C1C1C] text-[#393939] open-sans">
@@ -719,14 +719,14 @@ const ContactForm = () => {
         </div>
 
         {/* Section 3: Email */}
-        <div className="flex flex-row items-start">
+        <div className="flex">
           <img
             src={logoIcon3}
             alt="Email Icon"
-            className="w-[27px] h-[22px] mr-4 lg:mr-5"
+            className="w-[24px] h-[20px] mr-4 lg:mr-5"
           />
-          <div className="flex flex-col items-start">
-            <h3 className="text-xl lg:text-3xl font-semibold text-[#E2761B]">
+          <div className="flex flex-col">
+            <h3 className="text-[20px] lg:text-[30px] font-semibold text-[#E2761B] mt-3 mb-4" style={{lineHeight: "0"}}>
               Email
             </h3>
             <p className="text-base md:text-lg font-medium lg:text-[#1C1C1C] text-[#393939] open-sans">

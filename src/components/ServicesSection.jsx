@@ -80,7 +80,7 @@ const ServicesSection = () => {
 
       {/* View All Button */}
       <button
-        className="bg-[#E2761B] text-white px-8 py-3 text-lg btn-animation1 rounded"
+        className="bg-[#E2761B] font-semibold lg:font-normal text-white px-8 py-3 text-lg btn-animation1 rounded"
         onClick={handleViewAllClick}
       >
         View All
