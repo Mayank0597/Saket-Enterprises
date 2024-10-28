@@ -692,7 +692,7 @@ const ContactForm = () => {
               <p className="text-base lg:text-lg font-medium lg:text-[#1C1C1C] text-[#393939] open-sans">
                 Dhamtari Road, Abhanpur, Chhattisgarh
               </p>
-              <br />
+              <div className="w-full h-[1px] bg-[#aba5a5] mt-3 mb-5"></div>
               <p className="text-base lg:text-lg font-medium lg:text-[#1C1C1C] text-[#393939] open-sans -mt-2">
                 CGHB Building, Sector 27, Nawagaon Parsatti, Atal Nagar, New
                 Raipur, Raipur(C.G)

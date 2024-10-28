@@ -169,8 +169,9 @@ const ServicePageMobile = () => {
       {/* Section 3 */}
       <div className="flex flex-wrap mt-[80px]">
         {/* Left-side images */}
-        <div className="relative" 
-        // data-aos="fade-right"
+        <div
+          className="relative"
+          // data-aos="fade-right"
         >
           {/* Grey Rectangle Image */}
           <img
@@ -253,7 +254,7 @@ const ServicePageMobile = () => {
       {/* Section 5 */}
       <div className="flex flex-wrap mt-[80px]">
         {/* Left-side images */}
-        <div className="relative" >
+        <div className="relative">
           {/* Grey Rectangle Image */}
           <img
             src={rectangleImage}
@@ -272,8 +273,8 @@ const ServicePageMobile = () => {
         {/* Right-side Content */}
         <div className="flex flex-col justify-center text-justify px-[31px]">
           {/* Heading */}
-          <h2 className="text-[33px] font-semibold text-left text-[#393939] mt-[30px] mb-2">
-            Flush Doors/Peak Doors
+          <h2 className="text-[33px] font-semibold text-left text-[#393939] mt-[30px] mb-2"> 
+            Flush Doors/Teak Doors
           </h2>
 
           {/* Description */}
@@ -336,7 +337,7 @@ const ServicePageMobile = () => {
       {/* Section 7 */}
       <div className="flex flex-wrap mt-[80px]">
         {/* Left-side images */}
-        <div className="relative" >
+        <div className="relative">
           {/* Grey Rectangle Image */}
           <img
             src={rectangleImage}
@@ -418,7 +419,7 @@ const ServicePageMobile = () => {
       {/* Section 9 */}
       <div className="flex flex-wrap mt-[80px]">
         {/* Left-side images */}
-        <div className="relative" >
+        <div className="relative">
           {/* Grey Rectangle Image */}
           <img
             src={rectangleImage}
@@ -500,7 +501,7 @@ const ServicePageMobile = () => {
       {/* Section 11 */}
       <div className="flex flex-wrap mt-[80px]">
         {/* Left-side images */}
-        <div className="relative" >
+        <div className="relative">
           {/* Grey Rectangle Image */}
           <img
             src={rectangleImage}
@@ -579,7 +580,7 @@ const ServicePageMobile = () => {
       {/* Section 13 */}
       <div className="flex flex-wrap mt-[80px]">
         {/* Left-side images */}
-        <div className="relative" >
+        <div className="relative">
           {/* Grey Rectangle Image */}
           <img
             src={rectangleImage}

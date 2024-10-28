@@ -403,7 +403,7 @@ const ServicePage = () => {
       />
       <Section
         imageSrc={image5}
-        heading="Flush Doors/Peak Doors"
+        heading="Flush Doors/Teak Doors"
         paragraph="We offer high-quality flush boards that are perfect for creating smooth and seamless doors and partitions. Our boards are engineered for durability and a sleek appearance. These boards are perfect for both residential and commercial applications and are available in various finishes to match your design needs.Whether you're looking to enhance the aesthetics of your home or create functional spaces in an office, our flush boards provide the versatility and elegance required for any project."
         imageOnLeft={true}
       />
